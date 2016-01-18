@@ -58,13 +58,8 @@ a:hover {
       max-height: 380px;
       padding: 50px 25px 0; } }
 
-.main-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  border-bottom: 10px solid #ffa949; }
-  @media (max-width: 768px) {
-    .main-footer {
-      padding: 20px 0; } }
+footer {
+  background-color: #666; }
 
 .primary-content {
   padding-top: 25px;
@@ -96,7 +91,7 @@ a:hover {
 .resorts {
   float: right; }
 
-.main-header, .main-footer, .primary-content {
+.main-header, .primary-content {
   text-align: center; }
 
 .primary-content, .secondary-content {
@@ -250,18 +245,18 @@ html, body {
 /*WORK CONTAINER*/
 .workContainer {
   position: relative;
-  overflow: hidden;
-  height: 100%;
-  height: 100vh; }
+  overflow: hidden; }
 
 .workNavContainer {
-  position: relative;
-  overflow: scroll;
-  height: 100%;
-  height: 100vh; }
+  position: relative; }
 
 .workPageLabel {
-  text-align: center; }
+  /* text-align: center; */
+  font-size: 2.5rem;
+  line-height: 1.75;
+  margin: 0;
+  margin-left: 40px;
+  margin-left: 10%; }
 
 .workNavContainer nav {
   width: 100%;
@@ -316,7 +311,10 @@ html, body {
   color: #FFF;
   text-decoration: none;
   font: 24px/30px Helvetica, Verdana, sans-serif;
-  letter-spacing: .05rem; }
+  letter-spacing: .05rem;
+  font-family: "Abolition Regular", Helvetica, Arial, sans-serif;
+  letter-spacing: 3px;
+  font-size: 2.2rem; }
 
 /* transition        : all 2s linear;
     -moz-transition   : all 2s linear;
@@ -334,9 +332,6 @@ html, body {
   width: auto;
   opacity: 0;
   margin-bottom: 0; }
-
-footer {
-  background-color: #666; }
 
 @media (min-width: 770px) {
   .workNavContainer img {
@@ -388,6 +383,9 @@ footer {
     background: #eee; }
   .workNavContainer li a:hover + img {
     left: 0px; } }
+
+footer {
+  background-color: #666; }
 
 /* Web Fonts -------------------- */
 @font-face {
