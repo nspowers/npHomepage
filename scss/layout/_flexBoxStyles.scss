@@ -36,7 +36,9 @@ html, body {
   -webkit-flex: 1 0 auto;          /* Chrome */
   -ms-flex: 1 0 auto;              /* IE 10 */
   flex: 1 0 auto;                  /* NEW, Spec - Opera 12.1, Firefox 20+ */
-	background: #F6F6F6;
+
+	// This background cost me hours of trying to figure out why the image wasn't showing (19 Jan 2015). It was showing, but was under this background image. 
+//	background: #F6F6F6;
 
   /* IE10 tweener syntax : seems not really to be needed*/
   /*-ms-flex-preferred-size: auto;*/

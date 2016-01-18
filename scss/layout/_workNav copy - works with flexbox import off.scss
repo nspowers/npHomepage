@@ -36,8 +36,8 @@
 
 .liBg {
 	max-height: 7rem;
-//		-webkit-filter: drop-shadow(8px 8px 10px #333);
-//    filter: drop-shadow(8px 8px 10px #333);
+		-webkit-filter: drop-shadow(8px 8px 10px #333);
+    filter: drop-shadow(8px 8px 10px #333);
 	
 		&::before {
 			content: "";
@@ -181,8 +181,6 @@ font-family: "Abolition Regular", Helvetica, Arial, sans-serif;
 		position: relative;
 	}
 }
-		
-		
 		
 		
 ///*WORK CONTAINER*/
