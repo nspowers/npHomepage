@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NathanielPowers.com</title>
+    <link rel="stylesheet" href="css/application.css">
+    <meta name="viewport" content="width=device-width">
+  </head>
+
+<!--<header id="top" class="main-header">-->
+<body class="flexbox-wrapper">
+<header id="top">
+	<div class="primaryNavContainer">
+		<div href="" class="logo"></div>
+
+	<button id="navMenuBtn">MENU</button>
+		<nav id="primaryNav">
+			<ul>
+				<li>
+					<a href="">HOME</a>
+				</li>
+				<li>
+					<a href="">WORK</a>
+				</li>
+				<li>
+					<a href="">ABOUT</a>
+				</li>
+				<li>
+					<a href="">CONTACT</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</header>
+  
+  <div class="workContainer">
+  	<div class="workNavContainer">
+    <nav>
+      <h2 class="workPageLabel">Work</h2>
+      <ul>
+        <li class="liBg homeBg">
+          <a href="#">Home</a>
+          <img src="img/bear.jpg" alt="">
+        </li>
+        <li class="liBg workBg">
+          <a href="#">About</a>
+          <img src="img/mountains.jpg" alt="">
+        </li>
+        <li class="liBg workBg">
+          <a href="#">Clients</a>
+          <img src="img/mtn-landscape.jpg" alt="">
+        </li>
+        <li class="liBg workBg">
+          <a href="#">Work</a>
+          <img src="img/resort.jpg" alt="">
+        </li>
+        <li class="liBg workBg">
+          <a href="#">Contact</a>
+          <img src="img/bear.jpg" alt="">
+        </li>
+<!--
+        <li class="liBg">
+          <a href="#">&nbsp;</a>
+        </li>
+-->
+      </ul>
+    </nav>
+
+<!--    <img src="pic1.jpg" alt="">-->
+  </div>
+	</div>
+     <script src="http://code.jquery.com/jquery.js"></script>
+ <script>
+$(document).ready(function(){
+	$(document).ready(function(){
+    $("#navMenuBtn").click(function(){
+        $(".primaryNavContainer").toggleClass("navActive");
+    });
+});
+
+	});
+	 
+	
+</script>
+ 
+</body>
+</html>
