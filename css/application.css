@@ -171,6 +171,7 @@ html, body {
   /* IE 10 */
   flex: 1 0 auto;
   /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  background: #F6F6F6;
   /* IE10 tweener syntax : seems not really to be needed*/
   /*-ms-flex-preferred-size: auto;*/ }
 
@@ -333,6 +334,9 @@ html, body {
   width: auto;
   opacity: 0;
   margin-bottom: 0; }
+
+footer {
+  background-color: #666; }
 
 @media (min-width: 770px) {
   .workNavContainer img {

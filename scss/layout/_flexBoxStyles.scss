@@ -1,0 +1,59 @@
+// http://codepen.io/Cyclodex/pen/RNwQmV#0
+
+html, body {
+  height: 100%;
+}
+
+/* Flexbox on body */
+.flexbox-wrapper {
+  /* display: flex with all fallbacks */
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  
+  /* direction with all fallbacks */
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  
+  /* TODO: I read something about issues with min-height and no height! */
+  min-height: 100%;
+}
+
+/* Div before footer to grow full height */
+.page-wrapper {
+  /* flex (item) with fallbacks*/
+  -webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-flex: 1;         /* OLD - Firefox 19- */
+  /*height: 20%;               /* For old syntax, otherwise collapses. */
+  /* flex grow, shrink, basis fallbacks */
+  -webkit-flex: 1 0 auto;          /* Chrome */
+  -ms-flex: 1 0 auto;              /* IE 10 */
+  flex: 1 0 auto;                  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+	background: #F6F6F6;
+
+  /* IE10 tweener syntax : seems not really to be needed*/
+  /*-ms-flex-preferred-size: auto;*/
+}
+/**
+ * IE 9 does not support flexbox : using modernizr and according workarounds to fix it
+ * this example uses 
+ * http://galengidman.com/2014/03/25/responsive-flexible-height-sticky-footers-in-css/
+ */
+.no-flexbox body {
+  display: table;
+  width: 100%;
+}
+
+/* perhaps we don't need the table-row classes */
+/*.no-flexbox .table-row, */
+.no-flexbox .page-wrapper {
+  display: table-row;
+  height: 100%;
+}
