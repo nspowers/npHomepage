@@ -213,12 +213,16 @@ font-family: "Abolition Regular", Helvetica, Arial, sans-serif;
 	z-index: 0;
 }
 
-.liBg:nth-child(1):hover ~ .bg img:nth-child(1),
-.liBg:nth-child(2):hover ~ .bg img:nth-child(2),
-.liBg:nth-child(3):hover ~ .bg img:nth-child(3),
-.liBg:nth-child(4):hover ~ .bg img:nth-child(4),
-.liBg:nth-child(5):hover ~ .bg img:nth-child(5),
-.liBg:nth-child(6):hover ~ .bg img:nth-child(6) { 			
+#show {
+	opacity: 1;
+}
+
+.liBg:nth-child(1):hover ~ .bg img:nth-child(2),
+.liBg:nth-child(2):hover ~ .bg img:nth-child(3),
+.liBg:nth-child(3):hover ~ .bg img:nth-child(4),
+.liBg:nth-child(4):hover ~ .bg img:nth-child(5),
+.liBg:nth-child(5):hover ~ .bg img:nth-child(6),
+.liBg:nth-child(6):hover ~ .bg img:nth-child(7) { 			
 	opacity:1;
 }
 		.liBg::before {
