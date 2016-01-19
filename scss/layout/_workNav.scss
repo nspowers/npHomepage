@@ -74,6 +74,7 @@
 font-family: "Abolition Regular", Helvetica, Arial, sans-serif;
     letter-spacing: 3px;
     font-size: 2.2rem;
+	font-size: 3.5rem;
 }
 
 .workNavContainer li a:hover {
@@ -95,7 +96,8 @@ font-family: "Abolition Regular", Helvetica, Arial, sans-serif;
   @media (min-width: 770px) {
 
 .workContainer {
-	overflow: visible;
+//height: 100vh;
+    overflow: hidden;
 }
 		
 .workNavContainer img {
@@ -129,8 +131,8 @@ font-family: "Abolition Regular", Helvetica, Arial, sans-serif;
 
 /*WORK NAV*/
 .workNavContainer nav {
-  width: 170px;
-  height: 500px;
+  width: auto;
+  height: auto;
 }
 
 .workNavContainer nav h1 {
@@ -156,6 +158,8 @@ font-family: "Abolition Regular", Helvetica, Arial, sans-serif;
   color: #444;
   text-decoration: none;
   font: 14px/30px Helvetica, Verdana, sans-serif;
+	height: auto;
+    padding: 3%;
 }
 
 //.workNavContainer li:nth-child(1) {
@@ -166,9 +170,9 @@ font-family: "Abolition Regular", Helvetica, Arial, sans-serif;
 //  background: #eee;
 //}
 
-.workNavContainer li a:hover + img {
-  left: 0px;
-}
+//.workNavContainer li a:hover + img {
+//  left: 0px;
+//}
 		
 //.liBg {
 //    max-height: auto;
@@ -206,16 +210,42 @@ font-family: "Abolition Regular", Helvetica, Arial, sans-serif;
   height:100%;
   opacity:0;
   transition:all .3s ease;
+	z-index: 0;
 }
 
 .liBg:nth-child(1):hover ~ .bg img:nth-child(1),
 .liBg:nth-child(2):hover ~ .bg img:nth-child(2),
-.liBg:nth-child(3):hover ~ .bg img:nth-child(3) { 			
+.liBg:nth-child(3):hover ~ .bg img:nth-child(3),
+.liBg:nth-child(4):hover ~ .bg img:nth-child(4),
+.liBg:nth-child(5):hover ~ .bg img:nth-child(5),
+.liBg:nth-child(6):hover ~ .bg img:nth-child(6) { 			
 	opacity:1;
 }
+		.liBg::before {
+			background: transparent;
+		}
 		
+		.workBg {
+			background-image: none;
+		}
+		
+		.workNavContainer li img {
+			display: none;
+		}
+		
+		.workNavContainer nav ul li {
+//			margin-bottom: 5%;
+			padding-bottom: 2%;
+    padding-top: 2%;
+		}
+		
+		.workNavContainer li a {
+			font-size: 2.5rem;
+		}
 
-		
+//		.workNavContainer li a:hover + img {
+//  display: none;
+//}
 		
 		
 		
