@@ -59,7 +59,8 @@ a:hover {
       padding: 50px 25px 0; } }
 
 footer {
-  background-color: #666; }
+  background-color: #666;
+  z-index: 1; }
 
 .primary-content {
   padding-top: 25px;
@@ -383,7 +384,8 @@ html, body {
     opacity: 1; } }
 
 footer {
-  background-color: #666; }
+  background-color: #666;
+  z-index: 1; }
 
 /* Web Fonts -------------------- */
 @font-face {
