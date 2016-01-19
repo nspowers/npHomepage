@@ -208,14 +208,13 @@ font-family: "Abolition Regular", Helvetica, Arial, sans-serif;
   transition:all .3s ease;
 }
 
-.bg img:nth-child(1),
-.listBg:nth-child(1):hover ~ .bg img:nth-child(1),
-.listBg:nth-child(2):hover ~ .bg img:nth-child(2),
-.listBg:nth-child(3):hover ~ .bg img:nth-child(3) { 			
+.liBg:nth-child(1):hover ~ .bg img:nth-child(1),
+.liBg:nth-child(2):hover ~ .bg img:nth-child(2),
+.liBg:nth-child(3):hover ~ .bg img:nth-child(3) { 			
 	opacity:1;
 }
 		
-}
+
 		
 		
 		
