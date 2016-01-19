@@ -116,7 +116,10 @@ font-family: "Abolition Regular", Helvetica, Arial, sans-serif;
   position: absolute;
   top: 0;
 	left: 0;
+	width: 100%;
+  height: auto;
   z-index: -50;
+	
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -167,19 +170,51 @@ font-family: "Abolition Regular", Helvetica, Arial, sans-serif;
   left: 0px;
 }
 		
-.liBg {
-    max-height: auto;
-    max-height: 100%;
-    height: 20%;
-		filter: none;
-		-webkit-filter: none;
+//.liBg {
+//    max-height: auto;
+//    max-height: 100%;
+//    height: 20%;
+//		filter: none;
+//		-webkit-filter: none;
+//
+//	&::before {
+//    height: auto;
+//    width: auto;
+//		background: none;
+//		position: relative;
+//	}
 
-	&::before {
-    height: auto;
-    width: auto;
-		background: none;
-		position: relative;
-	}
+		
+		.liBg {
+  position:relative;
+  z-index:1;
+}
+
+.bg {
+  position:absolute;
+  top:0;
+  left:0;
+      width: 100%;
+    height: 100%;
+}
+
+.bg img {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  opacity:0;
+  transition:all .3s ease;
+}
+
+.bg img:nth-child(1),
+.listBg:nth-child(1):hover ~ .bg img:nth-child(1),
+.listBg:nth-child(2):hover ~ .bg img:nth-child(2),
+.listBg:nth-child(3):hover ~ .bg img:nth-child(3) { 			
+	opacity:1;
+}
+		
 }
 		
 		
