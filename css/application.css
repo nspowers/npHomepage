@@ -1409,11 +1409,11 @@ button {
   border: none;
   font-size: 1.75rem;
   font-weight: 300;
-  position: fixed;
   right: 0;
   z-index: 9;
   color: #878787;
-  line-height: 1.55; }
+  line-height: 1.55;
+  position: absolute; }
 
 .navActive {
   height: 100vh;
@@ -3590,6 +3590,12 @@ footer ul li a {
     line-height: 1.45;
     font-weight: 300;
     margin-top: 5.9%; }
+  .cosOrigins {
+    background-color: #333;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 81%;
+    margin: 0 auto; }
   .originImg {
     margin-top: 15%;
     margin: 0 auto;
@@ -3698,6 +3704,16 @@ footer ul li a {
     .projectImg:hover {
       transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
       background-position: 1px; }
+  .bodyCopy {
+    margin: 0 2%;
+    padding: 3% 0 4% 0; }
+    .bodyCopy p {
+      column-count: 2;
+      -moz-column-count: 2;
+      -webkit-column-count: 2;
+      -moz-column-gap: 4em;
+      -webkit-column-gap: 4em;
+      column-gap: 4em; }
   .cosProjectImg {
     background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.84)), url("../img/work/cos-homepage-mobile-1370x719-full-size-for-web.jpg") no-repeat center center; }
   .arrInternImg {
@@ -3751,7 +3767,12 @@ footer ul li a {
     height: 100%; }
   .backgroundCard {
     border-bottom: 2rem solid #fff;
-    border-top: 2rem solid #fff; }
+    border-top: 2rem solid #fff;
+    border-bottom: 2rem solid transparent;
+    border-top: 2rem solid transparent;
+    background: transparent;
+    margin: 0 auto;
+    width: 81%; }
   .servicesProvided,
   .deliverablesProvided {
     display: block; }
@@ -3770,12 +3791,9 @@ footer ul li a {
   .infoBlock {
     margin-top: 1.5%; }
   .servicesDeliverables {
-    padding: 0% 0 3% 1.5%;
-    border-right: 2rem solid #fff; }
+    padding: 0% 0 3% 1.5%; }
     .servicesDeliverables table {
-      background: #f6f6f6;
-      border-top: 2rem solid #f6f6f6;
-      border-bottom: 2rem solid #f6f6f6; }
+      background: transparent; }
     .servicesDeliverables tr {
       background-color: transparent; }
     .servicesDeliverables td, .servicesDeliverables th {
@@ -3786,7 +3804,8 @@ footer ul li a {
       font-weight: 400;
       padding: 0 35px;
       line-height: 1.5;
-      vertical-align: top; }
+      vertical-align: top;
+      padding-right: 4%; }
     .servicesDeliverables td {
       font-family: "Roboto Slab";
       font-size: 1.25rem;
@@ -3935,9 +3954,7 @@ footer ul li a {
     font-size: 1.3rem; }
   .twoColumnContrast p {
     font-size: 1.5rem;
-    font-weight: 300; }
-  .bodyCopy {
-    padding: 3% 0 4% 0; } }
+    font-weight: 300; } }
 
 .row {
   margin-left: auto;
@@ -3953,7 +3970,7 @@ footer ul li a {
 .contentContainer {
   position: relative;
   overflow: hidden;
-  background: #FFF; }
+  background: #f6f6f6; }
 
 .fullWidth {
   max-width: 100%; }

@@ -1820,6 +1820,14 @@ footer ul li a {
 //        padding: 0 0 6%;
 //
 //  }
+	
+	.cosOrigins {
+    background-color: #333;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 81%;
+    margin: 0 auto;
+}
   
   .originImg {
     margin-top: 15%;
@@ -2038,7 +2046,8 @@ and (orientation : landscape) {
 }
 
 @media only screen and (min-width: 60em) {
-  
+
+	
 //  .workTitleBlock {
 //    margin-top: 325px;
 //  }
@@ -2059,6 +2068,21 @@ and (orientation : landscape) {
 			background-position: 1px;
     }
 }
+	
+.bodyCopy {
+			margin: 0 2%;
+        padding: 3% 0 4% 0;
+			
+			
+			p {
+				column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    -moz-column-gap: 4em;
+    -webkit-column-gap: 4em;
+    column-gap: 4em;
+			}
+    }	
 
 .cosProjectImg {
     background:
@@ -2180,6 +2204,13 @@ background:
 		border-bottom: 2rem solid #fff;
     border-top: 2rem solid #fff;
 //    border-right: 2rem solid #fff;
+	
+		border-bottom: 2rem solid transparent;
+    border-top: 2rem solid transparent;
+	
+	  background: transparent;
+    margin: 0 auto;
+    width: 81%;
 }
   
 //servicesDeliverables {
@@ -2233,13 +2264,14 @@ display: block;
 //    }
     
 		    padding: 0% 0 3% 1.5%;
-		    border-right: 2rem solid #fff;
+//		    border-right: 2rem solid #fff;
 		
 		table {
 			
-			background: #f6f6f6;
-    border-top: 2rem solid #f6f6f6;
-    border-bottom: 2rem solid #f6f6f6;
+//			background: #f6f6f6;
+			background: transparent;
+//    border-top: 2rem solid #f6f6f6;
+//    border-bottom: 2rem solid #f6f6f6;
 		
 		}
 			
@@ -2262,6 +2294,8 @@ display: block;
       padding: 0 35px;
       line-height: 1.5;
       vertical-align: top;
+			
+			padding-right: 4%;
       
       &:last-child {
 //        margin-top: 5%;
@@ -2570,18 +2604,20 @@ profilePic {
         font-weight: 300;
     }
     
-    .bodyCopy {
-        padding: 3% 0 4% 0;
-			
-			p {
-				column-count: 2;
-    -moz-column-count: 2;
-    -webkit-column-count: 2;
-    -moz-column-gap: 4em;
-    -webkit-column-gap: 4em;
-    column-gap: 4em;
-			}
-    }
+//    .bodyCopy {
+//			margin: 0 2%;
+//        padding: 3% 0 4% 0;
+//			
+//			
+//			p {
+//				column-count: 2;
+//    -moz-column-count: 2;
+//    -webkit-column-count: 2;
+//    -moz-column-gap: 4em;
+//    -webkit-column-gap: 4em;
+//    column-gap: 4em;
+//			}
+//    }
 }
 
 
