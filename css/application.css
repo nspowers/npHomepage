@@ -3695,6 +3695,16 @@ footer ul li a {
     padding: 5% 4%; } }
 
 @media only screen and (min-width: 60em) {
+  .cosProcessBody {
+    background-color: #F6F6F6;
+    padding: 2% 4%;
+    margin: 0 auto;
+    padding: 0;
+    width: 81%;
+    margin: 0 auto; }
+    .cosProcessBody .columns {
+      margin: 0;
+      padding: 0; }
   .project {
     margin-top: 4%;
     overflow: hidden; }
@@ -3705,7 +3715,6 @@ footer ul li a {
       transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
       background-position: 1px; }
   .bodyCopy {
-    margin: 0 2%;
     padding: 3% 0 4% 0; }
     .bodyCopy p {
       column-count: 2;

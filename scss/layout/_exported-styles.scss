@@ -2046,8 +2046,33 @@ and (orientation : landscape) {
 }
 
 @media only screen and (min-width: 60em) {
+.cosProcessBody {
+	
+	.columns {
+		margin: 0;
+		padding: 0;
+	}
+    background-color: #F6F6F6;
+    padding: 2% 4%;
+//    /* width: 81%; */
+    margin: 0 auto;
+	padding: 0;
+	
+	width: 81%;
+    margin: 0 auto;
+	
+}
+
 
 	
+//	.cosProcessBody,
+//.cosDeliveryHomepage,
+//.cosDeliveryHeroImg,
+//.galleryNotes {
+//	background-color: #F6F6F6;
+//	    padding: 2% 4%;
+//}
+//	
 //  .workTitleBlock {
 //    margin-top: 325px;
 //  }
@@ -2070,7 +2095,7 @@ and (orientation : landscape) {
 }
 	
 .bodyCopy {
-			margin: 0 2%;
+//			margin: 0 2%;
         padding: 3% 0 4% 0;
 			
 			
