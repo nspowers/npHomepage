@@ -1,0 +1,33 @@
+.row .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.contentContainer {
+	position: relative;
+  overflow: hidden;
+	background: #FFF;
+}
+
+.fullWidth {
+	max-width: 100%;
+//	margin-left: 0;
+//	margin-right: 0;
+}
+
+.small-fullWidth {
+	padding: 0;
+}
+
+/////////////////////////////////////////////////////
+  @media (min-width: 770px) {
+	
+	
+	}
+
+
+//	@media (min-width: 1280px) {
+//		.row {
+//			max-width: 80rem;
+//		}
+//	}
