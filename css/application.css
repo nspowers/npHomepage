@@ -822,7 +822,8 @@ img {
   height: auto;
   -ms-interpolation-mode: bicubic;
   display: inline-block;
-  vertical-align: middle; }
+  vertical-align: middle;
+  border-radius: 0; }
 
 textarea {
   height: auto;
@@ -1578,11 +1579,15 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) {
   margin: 0 auto;
   display: block; }
 
+.sectionTitleBlock {
+  margin-left: 0; }
+
 .sectionTitle {
   text-transform: uppercase;
   font-size: 2.1rem;
   letter-spacing: 1px;
-  font-size: 1.75rem; }
+  font-size: 1.75rem;
+  margin-bottom: 0; }
 
 .cosDelivery .fullMatteAfter {
   margin-bottom: 5%; }
@@ -1653,6 +1658,8 @@ figure {
 
 .workTitleBlock {
   margin-top: 69px; }
+  .workTitleBlock h2 {
+    font-size: 2.3125em; }
 
 .workTitle {
   font-family: 'Montserrat', sans-serif;
@@ -1660,6 +1667,8 @@ figure {
   text-align: center;
   color: #fff;
   text-shadow: 1px 1px 1px #333; }
+  .workTitle h2 {
+    font-size: 2.3125em; }
 
 .workSubTitle {
   font-family: 'Montserrat', sans-serif;
@@ -1671,6 +1680,8 @@ figure {
 
 section {
   background-color: #FAFAFA; }
+  section .copyWrap {
+    padding: 0 7%; }
 
 .project {
   margin-top: 4%;
@@ -1724,14 +1735,24 @@ section {
     line-height: 1.65;
     margin-top: 3%; }
 
+section img {
+  margin-bottom: 0; }
+
 .cosOrigins {
   background-color: #333;
-  padding-bottom: 8%;
-  padding: 0 7% p;
-    padding-color: #979797; }
+  margin-bottom: 0;
+  padding-bottom: 0; }
+  .cosOrigins p {
+    color: #979797; }
 
 .sptmOrigins {
   background-color: #EEE; }
+
+.cosResearch,
+.cosProcessBody,
+cosDeliveryHomepage,
+.cosConcl, damLibrary {
+  padding: 0 4%; }
 
 .cosProcessBody,
 .cosDeliveryHomepage,
@@ -2121,7 +2142,19 @@ servicesDeliverables {
   font-weight: 700; }
 
 .bodyCopy {
-  padding: 12% 0 7% 0; }
+  padding: 3% 0 0 0; }
+  .bodyCopy h3 {
+    font-size: 1.76em;
+    line-height: 1.2;
+    color: #48525c;
+    font-weight: 700;
+    margin-bottom: 0; }
+  .bodyCopy p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem; }
+
+.twoColumnTitle {
+  margin-bottom: 0; }
 
 .twoColumnText p {
   font-size: 1.1rem;
