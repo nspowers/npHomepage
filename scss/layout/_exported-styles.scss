@@ -304,18 +304,18 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) {
   color: $originBgContrast;
 }
 
-.originUnderline {
-  color: #FFF;
-  &:after {
-    content: '';
-    height: 6px;
-    width: 1.3em;
-    display: block;
-    position: absolute;
-    bottom: -.01em;
-    background-color: $originUnderlineColor;
-  }
-}
+//.originUnderline {
+//  color: #FFF;
+//  &:after {
+//    content: '';
+//    height: 6px;
+//    width: 1.3em;
+//    display: block;
+//    position: absolute;
+//    bottom: -.01em;
+//    background-color: $originUnderlineColor;
+//  }
+//}
 
 .homeName {
 color: #fff;
@@ -375,10 +375,12 @@ figure {
 //      margin: 0 4rem;
 //  background-color: #EEE;
   p {
-    padding: 1.25% 0 1.1% 0;
+		margin: 0;
+    padding: 3% 0 3% 0;
   text-align: center;
           font-family: 'Montserrat', sans-serif;
     font-size: .95rem;
+		background: #f2f2f2;
   }
 }
 
@@ -607,6 +609,7 @@ cosDeliveryHomepage,
 .cosDeliveryHeroImg,
 .galleryNotes {
 	background-color: #F6F6F6;
+	    padding: 2% 4%;
 }
 
 .flex-video {
@@ -1243,6 +1246,19 @@ background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transpare
 
 // Footer Section
 
+.nextProject {
+	h3 {
+		margin-bottom: 0;
+//		padding: 2% 0 5%;
+		font-size: 1.25em;
+    line-height: 1.2;
+    color: #48525c;
+//    margin-bottom: 1.7em;
+    text-align: center;
+	}
+}
+
+
 .footerNext {
   background-color: #FAFAFA;
 	
@@ -1252,6 +1268,7 @@ background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transpare
     color: #FFF;
     text-align: center;
     text-shadow: 1px 2px 16px #333;
+		margin-top: 2%;
 	}
 }
 
@@ -1296,7 +1313,8 @@ background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transpare
 .footerNextImg {
 //height: 53%;
 //  border-top: 44px solid #fafafa;
-  border-top: 44px solid #F6F6F6;
+//  border-top: 44px solid #F6F6F6;
+  border-top: 15px solid #F6F6F6;
     padding: 13% 0;
   pading-top: 2%;
     
@@ -1308,7 +1326,7 @@ background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transpare
 }
 
 .footerNextSportMgmtBg {
-background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 90%, #FAFAFA 100%) repeat scroll 0% 0%, transparent url("../img/work/spm-coaching.jpg") no-repeat center top;
+background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 90%, #f6f6f6 100%) repeat scroll 0% 0%, transparent url("../img/work/spm-coaching.jpg") no-repeat center top;
   background-size: cover;
 }
 
@@ -1763,11 +1781,11 @@ footer ul li a {
     font-weight: 300;
     margin-top: -1.1%;
 }
-  
-  .cosOrigins {
-        padding: 0 0 6%;
-
-  }
+//  
+//  .cosOrigins {
+//        padding: 0 0 6%;
+//
+//  }
   
   .originImg {
     margin-top: 15%;
@@ -1870,12 +1888,14 @@ footer ul li a {
 }
   
   .centeredCaption p {
-    padding: 1.25% 0 5.1% 0;
+		margin: 0;
+		padding: 2%;
+//    padding: 1.25% 0 5.1% 0;
 //  text-align: center;
   }
   
   .twoColumnCentered p {
-    padding: 1.25% 0 5.1% 0;
+//    padding: 1.25% 0 5.1% 0;
   }
 
   
@@ -2230,13 +2250,13 @@ display: block;
 //    }
 //  }
   
-  .bodyCopy {
-    padding: 12% 0 12% 0;
-  }
+//  .bodyCopy {
+//    padding: 12% 0 12% 0;
+//  }
     
-  .bodyCopyLast {
-    padding: 0% 0 12% 0;
-  }
+//  .bodyCopyLast {
+//    padding: 0% 0 12% 0;
+//  }
   
   .centerBlockText {
     margin: 0 auto;

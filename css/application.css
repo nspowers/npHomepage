@@ -1599,17 +1599,6 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) {
   padding: 4% 0 2% 0;
   color: #A0A0A0; }
 
-.originUnderline {
-  color: #FFF; }
-  .originUnderline:after {
-    content: '';
-    height: 6px;
-    width: 1.3em;
-    display: block;
-    position: absolute;
-    bottom: -.01em;
-    background-color: #FAFAFA; }
-
 .homeName {
   color: #fff;
   font-size: 2.75rem;
@@ -1646,10 +1635,12 @@ figure {
   padding: 5% 5% 5% 6%; }
 
 .centeredCaption p {
-  padding: 1.25% 0 1.1% 0;
+  margin: 0;
+  padding: 3% 0 3% 0;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: .95rem; }
+  font-size: .95rem;
+  background: #f2f2f2; }
 
 .twoColumnCentered p {
   font-family: 'Montserrat', sans-serif;
@@ -1758,7 +1749,8 @@ cosDeliveryHomepage,
 .cosDeliveryHomepage,
 .cosDeliveryHeroImg,
 .galleryNotes {
-  background-color: #F6F6F6; }
+  background-color: #F6F6F6;
+  padding: 2% 4%; }
 
 .flex-video {
   margin-bottom: 9%; }
@@ -2174,6 +2166,13 @@ servicesDeliverables {
   background-color: rgba(255, 255, 255, 0.89);
   padding: 5%; }
 
+.nextProject h3 {
+  margin-bottom: 0;
+  font-size: 1.25em;
+  line-height: 1.2;
+  color: #48525c;
+  text-align: center; }
+
 .footerNext {
   background-color: #FAFAFA; }
   .footerNext h3 {
@@ -2181,7 +2180,8 @@ servicesDeliverables {
     font-family: 'Roboto Slab', serif;
     color: #FFF;
     text-align: center;
-    text-shadow: 1px 2px 16px #333; }
+    text-shadow: 1px 2px 16px #333;
+    margin-top: 2%; }
 
 .footerNextTitle {
   font-size: 1.95rem;
@@ -2211,13 +2211,13 @@ servicesDeliverables {
   transition: all 1s ease; }
 
 .footerNextImg {
-  border-top: 44px solid #F6F6F6;
+  border-top: 15px solid #F6F6F6;
   padding: 13% 0;
   pading-top: 2%;
   padding-bottom: 20%; }
 
 .footerNextSportMgmtBg {
-  background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 90%, #FAFAFA 100%) repeat scroll 0% 0%, transparent url("../img/work/spm-coaching.jpg") no-repeat center top;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 90%, #f6f6f6 100%) repeat scroll 0% 0%, transparent url("../img/work/spm-coaching.jpg") no-repeat center top;
   background-size: cover; }
 
 .footerNextArrBg {
@@ -2394,8 +2394,6 @@ footer ul li a {
     line-height: 1.45;
     font-weight: 300;
     margin-top: -1.1%; }
-  .cosOrigins {
-    padding: 0 0 6%; }
   .originImg {
     margin-top: 15%;
     margin: 0 auto;
@@ -2456,9 +2454,8 @@ footer ul li a {
     .workBlock a .fa-columns {
       font-size: 1.75rem; }
   .centeredCaption p {
-    padding: 1.25% 0 5.1% 0; }
-  .twoColumnCentered p {
-    padding: 1.25% 0 5.1% 0; }
+    margin: 0;
+    padding: 0; }
   footer p {
     font-size: 1rem; } }
 
@@ -2593,10 +2590,6 @@ footer ul li a {
     padding: 12px 28px 12px 0;
     line-height: 1.5;
     vertical-align: top; }
-  .bodyCopy {
-    padding: 12% 0 12% 0; }
-  .bodyCopyLast {
-    padding: 0% 0 12% 0; }
   .centerBlockText {
     margin: 0 auto;
     display: block;
