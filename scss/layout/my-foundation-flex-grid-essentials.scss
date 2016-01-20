@@ -585,12 +585,12 @@ button {
   flex-direction:         column-reverse !important
 }
 
-.medium-flexInverse {
+.medium-flexNormal {
 	-webkit-flex-direction: column; /* Safari */
   flex-direction:         column;
 	}
 
-.large-flexInverse {
+.large-flexNormal {
 	-webkit-flex-direction: column; /* Safari */
   flex-direction:         column;
 	}
@@ -708,7 +708,7 @@ button {
 
 // My addition
 	
-	.small-flexInverse {
+	.small-flexNormal {
 	-webkit-flex-direction: column; /* Safari */
   flex-direction:         column;
 	}
@@ -718,7 +718,7 @@ button {
   flex-direction:         column-reverse !important;
 	}
 	
-	.large-flexInverse {
+	.large-flexNormal {
 	-webkit-flex-direction: column; /* Safari */
   flex-direction:         column;
 	}
@@ -861,12 +861,12 @@ button {
 
 	// My addition
 	
-	.small-flexInverse {
+	.small-flexNormal {
 	-webkit-flex-direction: column; /* Safari */
   flex-direction:         column;
 	}
 	
-	.medium-flexInverse {
+	.medium-flexNormal {
 	-webkit-flex-direction: column; /* Safari */
   flex-direction:         column;
 	}
