@@ -59,8 +59,14 @@ a:hover {
       padding: 50px 25px 0; } }
 
 footer {
-  background-color: #666;
-  z-index: 1; }
+  z-index: 1;
+  background-color: #333;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  color: #666;
+  padding: 1.5% 0 3% 0;
+  text-align: center; }
 
 .primary-content {
   padding-top: 25px;
@@ -1624,8 +1630,14 @@ button {
     color: #FFF; } }
 
 footer {
-  background-color: #666;
-  z-index: 1; }
+  z-index: 1;
+  background-color: #333;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  color: #666;
+  padding: 1.5% 0 3% 0;
+  text-align: center; }
 
 /**
  * Foundation for Sites by ZURB
@@ -2808,6 +2820,10 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) {
     font-weight: 300;
     letter-spacing: .07rem; }
 
+.centeredImg {
+  margin: 0 auto;
+  width: 88%; }
+
 figure {
   width: 100%;
   margin: 0 auto; }
@@ -3705,6 +3721,9 @@ footer ul li a {
     .cosProcessBody .columns {
       margin: 0;
       padding: 0; }
+  .centeredImg {
+    margin: 0 auto;
+    width: 88%; }
   .project {
     margin-top: 4%;
     overflow: hidden; }
@@ -3827,8 +3846,6 @@ footer ul li a {
     display: block;
     width: 67%;
     padding-bottom: 6%; }
-  .centeredImg {
-    padding: 0 4rem; }
   .infoBlock {
     margin-top: 1.5%; }
   .fullMax {
@@ -3989,6 +4006,20 @@ footer ul li a {
 
 .twoColumnImg {
   overflow: hidden; }
+
+.backToTop {
+  padding: 1% 0 3% 0;
+  text-align: center;
+  background: #f6f6f6;
+  -webkit-transition: all 1s ease;
+  /* Safari and Chrome */
+  -moz-transition: all 1s ease;
+  /* Firefox */
+  -ms-transition: all 1s ease;
+  /* IE 9 */
+  -o-transition: all 1s ease;
+  /* Opera */
+  transition: all 1s ease; }
 
 /* Web Fonts -------------------- */
 @font-face {
