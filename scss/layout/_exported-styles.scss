@@ -417,10 +417,11 @@ figure {
 .workTitle {
   font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    text-align: center;
+//    text-align: left;
     color: #fff;
   text-shadow: 1px 1px 1px #333;
 	line-height: 1.45;
+	    padding-left: 4%;
 //    margin-top: -29%;
 //    margin-top: -30%;
 //    font-size: 2rem;
@@ -440,13 +441,14 @@ figure {
   font-family: 'Montserrat', sans-serif;
 //    margin-bottom: 7%;
     color: #fff;
-    text-align: center;
+//    text-align: left;
   text-shadow: 1px 1px 1px #333;
 //    margin-top: -14%;
 //    margin-top: -16%;
 //    font-weight: 300;
         padding-bottom: 9%;
     font-size: 1.25rem;
+	    padding-left: 4%;
 
 }
 
@@ -745,7 +747,7 @@ whiteContrast {
 //  width: 90%;
   font-size: 1.32rem;
   line-height: 1.45;
-  font-weight: 300;
+//  font-weight: 300;
   font-family: "Roboto Slab";
     font-size: 1.45rem;
 	font-weight: 500;
@@ -1812,15 +1814,15 @@ footer ul li a {
   
   .workLead {
   font-size: 1.75rem;
-    color: #555555;
+//    color: #555555;
   line-height: 1.45;
-    font-weight: 300;
+//    font-weight: 300;
     margin-top: -1.1%;
 		
 //		font-size: 2rem;
-    color: #555555;
+//    color: #555555;
     line-height: 1.45;
-    font-weight: 300;
+//    font-weight: 300;
     margin-top: 5.9%;
 		font-size: 1.5;
 }
@@ -1839,14 +1841,17 @@ footer ul li a {
     margin-bottom: 0;
     padding-bottom: 0;
 //    width: 81%;
-    width: 82%;
+//    width: 82%;
+		width: 100%;
     margin: 0 auto;
 }
   
   .originImg {
-    margin-top: 15%;
+//    margin-top: 15%;
         margin: 0 auto;
     display: block;
+		// 25 Jan 2015 3-14pm
+		max-width: 170%;
   }
 
   .overlayTextMatte {

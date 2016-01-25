@@ -2846,7 +2846,7 @@ figure {
 
 .centeredCaption p {
   margin: 0;
-  padding: 3% 0 3% 0;
+  padding: 3% 2% 3% 2%;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: .95rem;
@@ -2865,19 +2865,20 @@ figure {
 .workTitle {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-  text-align: center;
   color: #fff;
-  text-shadow: 1px 1px 1px #333; }
+  text-shadow: 1px 1px 1px #333;
+  line-height: 1.45;
+  padding-left: 4%; }
   .workTitle h2 {
     font-size: 2.3125em; }
 
 .workSubTitle {
   font-family: 'Montserrat', sans-serif;
   color: #fff;
-  text-align: center;
   text-shadow: 1px 1px 1px #333;
   padding-bottom: 9%;
-  font-size: 1.15rem; }
+  font-size: 1.25rem;
+  padding-left: 4%; }
 
 section .copyWrap {
   padding: 0 7%; }
@@ -3026,11 +3027,12 @@ whiteContrast {
 .workLead {
   margin-top: 5%;
   margin-bottom: 6.5%;
-  margin: 5% 4% 6.5% 4%;
+  margin: 8% 4% 3.5% 4%;
   font-size: 1.32rem;
   line-height: 1.45;
-  font-weight: 300;
-  font-family: "Roboto Slab"; }
+  font-family: "Roboto Slab";
+  font-size: 1.45rem;
+  font-weight: 500; }
 
 .servicesDeliverables {
   padding: 0% 0 7% 4%; }
@@ -3593,25 +3595,23 @@ footer ul li a {
     height: 371px; }
   .workLead {
     font-size: 1.75rem;
-    color: #555555;
     line-height: 1.45;
-    font-weight: 300;
     margin-top: -1.1%;
-    font-size: 2rem;
-    color: #555555;
     line-height: 1.45;
-    font-weight: 300;
-    margin-top: 5.9%; }
+    margin-top: 5.9%;
+    font-size: 1.5; }
+  .servicesDeliverables {
+    padding: 0% 0 6% 0%; }
   .cosOrigins {
     background-color: #333;
     margin-bottom: 0;
     padding-bottom: 0;
-    width: 82%;
+    width: 100%;
     margin: 0 auto; }
   .originImg {
-    margin-top: 15%;
     margin: 0 auto;
-    display: block; }
+    display: block;
+    max-width: 170%; }
   .overlayTextMatte {
     background-color: #FFF;
     margin: 3% 0px 6% 9%;
@@ -3807,9 +3807,10 @@ footer ul li a {
   .infoBlock {
     margin-top: 1.5%; }
   .servicesDeliverables {
-    padding: 0% 0 3% 1.5%; }
+    padding: 1.7% 0 3% 1.5%; }
     .servicesDeliverables table {
-      background: transparent; }
+      background: transparent;
+      width: 90%; }
     .servicesDeliverables tr {
       background-color: transparent; }
     .servicesDeliverables td, .servicesDeliverables th {
@@ -4029,9 +4030,10 @@ footer ul li a {
   transition: opacity .4s; }
 
 .otherWork {
-  width: 80%;
+  width: 87%;
   margin: 0 auto;
-  margin-bottom: 5%; }
+  margin-bottom: 6%;
+  padding-top: 8%; }
   .otherWork .otherWorkLink {
     border-bottom-width: 0;
     color: #fff;
@@ -4058,11 +4060,23 @@ footer ul li a {
     display: block;
     color: #fff; }
 
+@media (min-width: 510px) {
+  .workTitle {
+    padding-left: 2%; }
+  .workSubTitle {
+    padding-left: 2%; }
+  .workLead {
+    margin: 6% 4% 3.5% 4%;
+    font-size: 1.4rem; }
+  .servicesDeliverables {
+    padding: 0% 5% 6% 6%; } }
+
 @media (min-width: 770px) {
   .otherWork {
     width: 80%;
     margin: 0 auto;
-    margin-bottom: 5%; }
+    margin-bottom: 5%;
+    padding-top: 5%; }
     .otherWork .otherWorkLink {
       border-bottom-width: 0;
       color: #fff;
@@ -4105,20 +4119,24 @@ footer ul li a {
     margin-top: 136px;
     margin-left: 8%; }
     .workTitleBlock h2 {
-      font-size: 3.15em;
       text-align: left; }
     .workTitleBlock h3 {
       margin-top: 1%;
       padding-bottom: 3%;
-      font-size: 2.5rem;
       font-weight: 300;
       text-align: left; }
   .backgroundCard {
     margin: 0 auto;
     width: 87.5%; }
+  .workLead {
+    font-size: 2rem; }
+  .cosOrigins {
+    width: 82%; }
+  .originImg img {
+    max-width: 100%; }
   .bodyCopy {
     padding: 3% 0 4% 0;
-    width: 73%;
+    width: 100%;
     margin: 0 auto; }
     .bodyCopy h3 {
       font-size: 1.76em; }
@@ -4150,6 +4168,27 @@ footer ul li a {
     .otherWork .linkTypePrefix {
       display: block;
       color: #fff; } }
+
+@media screen and (min-width: 64em) {
+  .servicesDeliverables {
+    padding: 1.8% 0% 6% 0%; }
+  .originImg {
+    max-width: 100%; }
+  .bodyCopy {
+    width: 73%; } }
+
+@media (min-width: 1280px) {
+  .workTitleBlock {
+    margin-top: 136px;
+    margin-left: 8%; }
+    .workTitleBlock h2 {
+      font-size: 3.15em;
+      padding-left: 0; }
+    .workTitleBlock h3 {
+      margin-top: 1%;
+      padding-bottom: 3%;
+      padding-left: 0;
+      font-size: 2.5rem; } }
 
 /* Web Fonts -------------------- */
 @font-face {

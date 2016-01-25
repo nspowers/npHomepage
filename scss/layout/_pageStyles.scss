@@ -45,7 +45,7 @@
 }
 
 .originImg {
-	margin-top: 2%;
+//	margin-top: 2%;
 }
 
 .backToTop {
@@ -135,7 +135,15 @@
 
 /////////////////////////////////////////////////////
 
-@media (min-width 510px) {
+@media (min-width: 510px) {
+	.workTitle {
+		padding-left: 2%;
+	}
+	
+	.workSubTitle {
+		padding-left: 2%;
+	}
+	
 	.workLead {
 		margin: 6% 4% 3.5% 4%;
     font-size: 1.4rem;
@@ -143,6 +151,7 @@
 	
 	.servicesDeliverables {
     padding: 0% 5% 6% 6%;
+		
 	}
 }
 
@@ -238,14 +247,14 @@
     margin-left: 8%;
 		
 		h2 {
-    	font-size: 3.15em;
+//    	font-size: 3.15em;
 			text-align: left;
 		}
 		
 		h3 {
 			margin-top: 1%;
 			padding-bottom: 3%;
-    	font-size: 2.5rem;
+//    	font-size: 2.5rem;
 			font-weight: 300;
 			text-align: left;
 		}
@@ -260,9 +269,18 @@
 		font-size: 2rem;
 	}
 		
+	.cosOrigins {
+    width: 82%;
+	}
+	 
+	.originImg img {
+		max-width: 100%;
+	}
+	 
 	.bodyCopy {
     padding: 3% 0 4% 0;
-    width: 73%;
+//    width: 73%;
+    width: 100%;
     margin: 0 auto;
 		
 		h3 {
@@ -312,3 +330,44 @@
 	
 	}
 }
+
+// on large breakpoint
+@media screen and (min-width: 64em) {
+	
+	.servicesDeliverables {
+    padding: 1.8% 0% 6% 0%;
+	}
+	
+	.bodyCopy {
+		width: 73%;
+	}
+
+}
+
+
+@media screen and (min-width: 70em) {
+	.originImg {
+		max-width: 100%;
+	}
+}
+
+  @media (min-width: 1280px) {
+		.workTitleBlock {
+		
+		margin-top: 136px;
+    margin-left: 8%;
+		
+		h2 {
+    	font-size: 3.15em;
+			padding-left: 0;
+		}
+		
+		h3 {
+			margin-top: 1%;
+			padding-bottom: 3%;
+			padding-left: 0;
+    	font-size: 2.5rem;
+		}
+	}
+		
+	}
