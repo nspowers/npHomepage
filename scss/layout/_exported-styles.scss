@@ -379,7 +379,8 @@ figure {
 //  background-color: #EEE;
   p {
 		margin: 0;
-    padding: 3% 0 3% 0;
+//    padding: 3% 0 3% 0;
+		padding: 3% 2% 3% 2%;
   text-align: center;
           font-family: 'Montserrat', sans-serif;
     font-size: .95rem;
@@ -419,6 +420,7 @@ figure {
     text-align: center;
     color: #fff;
   text-shadow: 1px 1px 1px #333;
+	line-height: 1.45;
 //    margin-top: -29%;
 //    margin-top: -30%;
 //    font-size: 2rem;
@@ -444,7 +446,7 @@ figure {
 //    margin-top: -16%;
 //    font-weight: 300;
         padding-bottom: 9%;
-    font-size: 1.15rem;
+    font-size: 1.25rem;
 
 }
 
@@ -456,7 +458,7 @@ figure {
 //}
 
 section {
-  background-color: #FAFAFA;
+//  background-color: #FAFAFA;
 //  padding: 4% 0 5% 0;
 	
 	.copyWrap {
@@ -738,12 +740,15 @@ whiteContrast {
 //	margin: 0 auto;
 	margin-top: 5%;
   margin-bottom: 6.5%;
-	margin: 5% $mobileMargin 6.5% $mobileMargin;
+//	margin: 5% $mobileMargin 6.5% $mobileMargin;
+	margin: 8% $mobileMargin 3.5% $mobileMargin;
 //  width: 90%;
   font-size: 1.32rem;
   line-height: 1.45;
   font-weight: 300;
   font-family: "Roboto Slab";
+    font-size: 1.45rem;
+	font-weight: 500;
 }
 
 .servicesDeliverables {
@@ -1812,11 +1817,16 @@ footer ul li a {
     font-weight: 300;
     margin-top: -1.1%;
 		
-		font-size: 2rem;
+//		font-size: 2rem;
     color: #555555;
     line-height: 1.45;
     font-weight: 300;
     margin-top: 5.9%;
+		font-size: 1.5;
+}
+	
+.servicesDeliverables {
+	padding: 0% 0 6% 0%;
 }
 //  
 //  .cosOrigins {
@@ -2299,13 +2309,15 @@ display: block;
 //    font-size: 2rem;
 //    }
     
-		    padding: 0% 0 3% 1.5%;
+//		    padding: 0% 0 3% 1.5%;
+		    padding: 1.7% 0 3% 1.5%;
 //		    border-right: 2rem solid #fff;
 		
 		table {
 			
 //			background: #f6f6f6;
 			background: transparent;
+			width: 90%;
 //    border-top: 2rem solid #f6f6f6;
 //    border-bottom: 2rem solid #f6f6f6;
 		
