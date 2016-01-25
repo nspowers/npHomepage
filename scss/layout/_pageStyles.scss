@@ -157,7 +157,30 @@
 
 
   @media (min-width: 770px) {
+		
+	#navMenuBtn {
+		display: none;
+	}
 	
+	#primaryNav {
+//    position: absolute;
+//    top: .6%;
+//    bottom: 0;
+//    left: 0;
+//    right: 37px;
+//    left: auto;
+//    bottom: auto;
+//		
+		li {
+//			display: inline-block;
+//			padding: 4.7%;
+		
+			a {
+//				font-size: 1.4rem;
+			}
+		}
+	}
+		
 	.otherWork {
 		width: 80%;
     margin: 0 auto;
