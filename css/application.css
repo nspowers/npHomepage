@@ -3035,8 +3035,7 @@ whiteContrast {
   font-family: "Roboto Slab"; }
 
 .servicesDeliverables {
-  padding: 0% 0 7% 4%;
-  background: #f6f6f6; }
+  padding: 0% 0 7% 4%; }
   .servicesDeliverables table td, .servicesDeliverables table th {
     padding: 0;
     text-align: left;
@@ -3609,7 +3608,7 @@ footer ul li a {
     background-color: #333;
     margin-bottom: 0;
     padding-bottom: 0;
-    width: 81%;
+    width: 82%;
     margin: 0 auto; }
   .originImg {
     margin-top: 15%;
@@ -3733,13 +3732,6 @@ footer ul li a {
       background-position: 1px; }
   .bodyCopy {
     padding: 3% 0 4% 0; }
-    .bodyCopy p {
-      column-count: 2;
-      -moz-column-count: 2;
-      -webkit-column-count: 2;
-      -moz-column-gap: 4em;
-      -webkit-column-gap: 4em;
-      column-gap: 4em; }
   .cosProjectImg {
     background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.84)), url("../img/work/cos-homepage-mobile-1370x719-full-size-for-web.jpg") no-repeat center center; }
   .arrInternImg {
@@ -4024,6 +4016,10 @@ footer ul li a {
   border: 1px solid steelblue; }
 
 @media (min-width: 60em) {
+  body {
+    background: #f6f6f6; }
+  section {
+    background: transparent; }
   .contentContainer {
     position: relative;
     overflow: hidden;
@@ -4031,22 +4027,27 @@ footer ul li a {
     margin: 1% 4% 0 4%; }
   .introImg {
     height: 371px; }
-  .workTitleBlock h2 {
-    font-size: 3.15em; }
-  .workSubTitle {
-    font-size: 2.5rem;
-    padding-bottom: 3%;
-    font-weight: 300;
-    margin-top: 1%; }
   .workTitleBlock {
     margin-top: 136px;
     margin-left: 8%; }
+    .workTitleBlock h2 {
+      font-size: 3.15em;
+      text-align: left; }
+    .workTitleBlock h3 {
+      margin-top: 1%;
+      padding-bottom: 3%;
+      font-size: 2.5rem;
+      font-weight: 300;
+      text-align: left; }
+  .backgroundCard {
+    margin: 0 auto;
+    width: 87.5%; }
   .bodyCopy {
     padding: 3% 0 4% 0;
     width: 73%;
     margin: 0 auto; }
-  .bodyCopy h3 {
-    font-size: 1.76em; } }
+    .bodyCopy h3 {
+      font-size: 1.76em; } }
 
 /* Web Fonts -------------------- */
 @font-face {

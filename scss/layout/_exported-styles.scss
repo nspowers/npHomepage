@@ -750,7 +750,7 @@ whiteContrast {
 //	margin: 0 $mobileMargin;
 //	padding: 2% 6% 7% 6%;
 	padding: 0% 0 7% 4%;
-	background: #f6f6f6;
+//	background: #f6f6f6;
 	
 	
 	table {
@@ -1828,7 +1828,8 @@ footer ul li a {
     background-color: #333;
     margin-bottom: 0;
     padding-bottom: 0;
-    width: 81%;
+//    width: 81%;
+    width: 82%;
     margin: 0 auto;
 }
   
@@ -2069,7 +2070,8 @@ and (orientation : landscape) {
 	.centeredImg {
 		margin: 0 auto;
 //    width: 81%;
-    width: 88%;
+//    width: 88%;
+    width: 84%;
 	}
 
 
@@ -2108,14 +2110,14 @@ and (orientation : landscape) {
         padding: 3% 0 4% 0;
 			
 			
-			p {
-				column-count: 2;
-    -moz-column-count: 2;
-    -webkit-column-count: 2;
-    -moz-column-gap: 4em;
-    -webkit-column-gap: 4em;
-    column-gap: 4em;
-			}
+//			p {
+//				column-count: 2;
+//    -moz-column-count: 2;
+//    -webkit-column-count: 2;
+//    -moz-column-gap: 4em;
+//    -webkit-column-gap: 4em;
+//    column-gap: 4em;
+//			}
     }	
 
 .cosProjectImg {
