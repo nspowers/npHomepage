@@ -75,3 +75,48 @@
 //			max-width: 80rem;
 //		}
 //	}
+
+
+// 24 Jan 2016
+
+//  @media (min-width: 1280px) {
+  @media (min-width: 60em) {
+		
+	.contentContainer {
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    margin: 1% 4% 0 4%;
+	}
+	
+	.introImg {
+    height: 371px;
+	}
+		
+	.workTitleBlock h2 {
+    font-size: 3.15em;
+	}
+		
+	.workSubTitle {
+    font-size: 2.5rem;
+		padding-bottom: 3%;
+    font-weight: 300;
+    margin-top: 1%;
+	}
+		
+	.workTitleBlock {
+    margin-top: 136px;
+    margin-left: 8%;
+	}
+		
+	.bodyCopy {
+    padding: 3% 0 4% 0;
+    width: 73%;
+    margin: 0 auto;
+	}
+		
+	.bodyCopy h3 {
+    font-size: 1.76em;
+	}
+	
+	}

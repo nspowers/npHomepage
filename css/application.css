@@ -2959,7 +2959,6 @@ cosDeliveryHomepage,
 .cosDeliveryHomepage,
 .cosDeliveryHeroImg,
 .galleryNotes {
-  background-color: #F6F6F6;
   padding: 2% 4%; }
 
 .flex-video {
@@ -3712,7 +3711,6 @@ footer ul li a {
 
 @media only screen and (min-width: 60em) {
   .cosProcessBody {
-    background-color: #F6F6F6;
     padding: 2% 4%;
     margin: 0 auto;
     padding: 0;
@@ -4020,6 +4018,35 @@ footer ul li a {
   -o-transition: all 1s ease;
   /* Opera */
   transition: all 1s ease; }
+
+.otherWork div.otherWork {
+  height: 5rem;
+  border: 1px solid steelblue; }
+
+@media (min-width: 60em) {
+  .contentContainer {
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    margin: 1% 4% 0 4%; }
+  .introImg {
+    height: 371px; }
+  .workTitleBlock h2 {
+    font-size: 3.15em; }
+  .workSubTitle {
+    font-size: 2.5rem;
+    padding-bottom: 3%;
+    font-weight: 300;
+    margin-top: 1%; }
+  .workTitleBlock {
+    margin-top: 136px;
+    margin-left: 8%; }
+  .bodyCopy {
+    padding: 3% 0 4% 0;
+    width: 73%;
+    margin: 0 auto; }
+  .bodyCopy h3 {
+    font-size: 1.76em; } }
 
 /* Web Fonts -------------------- */
 @font-face {
