@@ -2,11 +2,14 @@
 $themeBlue: #1199bf;
 $themeTextColor: #333;
 $themeLinkColor: #1175BC;
+$themeLinkHover: steelblue;
 
 
 $originBgContrast: #A0A0A0;
 $underlineShortColor: #333;
 $originUnderlineColor: #FAFAFA;
+
+$defaultTextColor: #333;
 
 $mobileMargin: 4%;
 
@@ -140,6 +143,11 @@ p {
     	font-weight: 700;
     	font-size: 1.25rem;
     	text-transform: none;
+			color: $themeTextColor;
+			
+			&:hover {
+				color: $themeLinkHover;
+			}
 		}
 	}
 }

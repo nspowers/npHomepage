@@ -216,6 +216,18 @@ filter: grayscale(100%);
 		}
 	}
 		
+	.homeHeroBlock {
+		h2 {
+			margin-top: 8%;
+			font-size: 2.75rem;
+		}
+		
+		h3 {
+			br:last-of-type {
+				display: none;
+			}
+		}
+	}
 		
 	.teamContributions {
 	

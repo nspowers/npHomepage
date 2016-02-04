@@ -1524,6 +1524,7 @@ button {
   /* height: 5%; */
   z-index: 999; }
   .home span p {
+    display: block;
     font-size: 2.25rem;
     font-weight: 300;
     color: #aaa; }
@@ -2734,7 +2735,10 @@ p {
       margin-left: 6%;
       font-weight: 700;
       font-size: 1.25rem;
-      text-transform: none; }
+      text-transform: none;
+      color: #333; }
+      .selectedWork .workItem p:hover {
+        color: steelblue; }
 
 .about {
   background: #fff;
