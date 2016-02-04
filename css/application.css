@@ -1413,13 +1413,14 @@ button {
   padding: 5%;
   background-color: transparent;
   border: none;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-weight: 300;
   right: 0;
   z-index: 9;
   color: #878787;
   line-height: 1.55;
-  position: absolute; }
+  position: absolute;
+  position: fixed; }
 
 .navActive {
   height: 100vh;
@@ -1517,9 +1518,15 @@ button {
   display: block;
   position: absolute;
   top: 0;
-  left: 0; }
+  left: 0;
+  top: -29px;
+  left: 19px;
+  /* height: 5%; */
+  z-index: 999; }
   .home span p {
-    font-size: 2.4rem; }
+    font-size: 2.25rem;
+    font-weight: 300;
+    color: #aaa; }
 
 .workNavContainer nav {
   width: 100%;
@@ -2694,7 +2701,13 @@ p {
     font-size: 1.25rem; }
 
 .workServices h4 {
+  margin: 6% 0 0% 0;
+  padding: 0;
+  font-size: 1.1rem;
   font-weight: 700; }
+
+.workServices p {
+  font-size: 1.1rem; }
 
 .selectedWork {
   text-transform: uppercase;
@@ -2703,6 +2716,8 @@ p {
   font-size: 1.75rem;
   margin-bottom: 0;
   background: #eee; }
+  .selectedWork h3 {
+    margin: 4% 0 5% 0; }
   .selectedWork .workItem {
     margin-bottom: 4%;
     background: #fff;
@@ -2725,7 +2740,7 @@ p {
   background: #fff;
   border-bottom: 1px solid #eee; }
   .about .sectionTitle {
-    margin-top: 0; }
+    margin-top: 3%; }
   .about .columns {
     padding-left: 0; }
   .about hr {
@@ -2734,6 +2749,12 @@ p {
 .contact .columns {
   padding-left: 0; }
 
+.contact p {
+  margin-bottom: 7%; }
+
+.contact a {
+  color: #FFF; }
+
 .contact .ctaButtons {
   text-align: center;
   background: steelblue;
@@ -2741,7 +2762,9 @@ p {
   color: #fff;
   font-weight: 700;
   letter-spacing: 14%;
-  margin-bottom: 4%; }
+  margin-bottom: 4%;
+  padding: 3%;
+  width: 100%; }
 
 table tr.even, table tr.alt, table tr:nth-of-type(even) {
   background: transparent; }
@@ -3435,7 +3458,7 @@ a.workLink:hover .learnMoreArrow {
   width: 100%; }
 
 .homeIntroImg {
-  background: gray url("../img/assets/today-made-image.jpg") no-repeat top center;
+  background: gray url("../img/assets/homeBg.jpg") no-repeat top center;
   background-size: cover; }
 
 .cosBg {
