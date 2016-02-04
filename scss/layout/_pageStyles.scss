@@ -48,6 +48,27 @@
 //	margin-top: 2%;
 }
 
+.teamContributions {
+	
+	span {
+		font-weight: 700;
+	}
+	
+	 p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+		}
+}
+
+.bw {
+-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+
+.sansImgCopy {
+	margin-bottom: 5%;
+}
+
 .backToTop {
 	padding: 1% 0 3% 0;
 	text-align: center;
@@ -132,6 +153,16 @@
 		}
 	}
 
+//// HOME Content
+
+.services {
+	padding: 0 3% 0 0;
+}
+
+.serviceColumns {
+	padding: 0;
+}
+
 
 /////////////////////////////////////////////////////
 
@@ -158,6 +189,10 @@
 
   @media (min-width: 770px) {
 		
+	#contentContainer {
+		margin: 3% 4% 0 4%;
+	}
+		
 	#navMenuBtn {
 		display: none;
 	}
@@ -181,6 +216,24 @@
 		}
 	}
 		
+		
+	.teamContributions {
+	
+	td {
+		width: 50%;
+    padding: 2%;
+	}
+		
+	 p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+		}
+	}	
+		
+	.serviceColumns {
+		padding: 0 3% 0 0;
+	}
+		
 	.otherWork {
 		width: 80%;
     margin: 0 auto;
@@ -194,6 +247,8 @@
 //    	display: block;
 			width: 47%;
     	display: inline-block;
+			background-color: slategray;
+
 		}
 	
 		.linkTypePrevious {
@@ -228,8 +283,50 @@
 			display: block;
     	color: #fff;
 		}
+		
+		.linkTypePrevious {
+			
+								-webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+			
+			&:hover {
+		
+				.figurePrevious {
+					margin-left: -3%;
+					-webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+					
+				}
+			}
+		
+		}
+		
+//		.linkTypePrevious:hover {
+//
+//				.linkTypePrevious > .figurePrevious {
+//					margin-left: -2%;
+//				}
+//			}
+
+		
+		.linkTypeNext {
+			
+			&:hover {
+		
+				.figureNext {
+					margin-right: -3%;
+				}
+			}
+		
+		}
+		
 	}
-	
 }
 
 
@@ -257,7 +354,10 @@
     position: relative;
     overflow: hidden;
     background: #fff;
-    margin: 1% 4% 0 4%;
+//    margin: 1% 4% 0 4%;
+		margin: 2% 4% 0 4%;
+		///
+		margin: 3% 4% 0 4%;
 	}
 	
 	.introImg {
@@ -292,7 +392,7 @@
 		font-size: 2rem;
 	}
 		
-	.cosOrigins {
+	.projectBackground {
     width: 82%;
 	}
 	 

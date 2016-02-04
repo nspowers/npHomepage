@@ -9,7 +9,7 @@
 //  position: relative;
 }
 
-.workPageLabel {
+.home {
 //	text-align: center;
 //    font-size: 2.5rem;
 //    line-height: 1.75;
@@ -17,9 +17,39 @@
 //    margin-left: 40px;
 //    margin-left: 10%;
 	
-    font-size: 2.4rem;
-    line-height: 2.2;
-		margin-right: 8.07vh;
+	p {
+		display: none;
+		color: #CCC;
+		font-size: 1.95rem;
+		font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 700;
+	}
+	
+	span {
+//    font-size: 2.4rem;
+//    line-height: 2.2;
+//		margin-right: 8.07vh;
+//		margin-top: -118%;
+//		margin-left: 20%;
+    display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+//		    display: block;
+//    position: absolute;
+//    top: -32px;
+    top: -29px;
+    left: 19px;
+    /* height: 5%; */
+    z-index: 999;
+		
+		p {
+		    font-size: 2.25rem;
+			font-weight: 300;
+    color: #aaa;
+
+		}
+	}
 }
 
 .workNavContainer nav {
@@ -101,8 +131,43 @@ font-family: "Abolition Regular", Helvetica, Arial, sans-serif;
   @media (min-width: 770px) {
 
 		
-		.workPageLabel {
-		    margin-right: 12.07vh
+		.home {
+			
+			p {
+				display: block;
+			}
+						
+			display: inline-block;
+		    margin-right: 12.07vh;
+					
+			
+					
+		//////
+//				font-size: 3.4rem;
+//				line-height: 1.89;
+//    margin-right: 8.07vh;
+//    font-family: sans-serif;
+//    color: #ccc;
+//    font-weight: 300;
+//    font-size: 2.9rem;
+//    line-height: 2.54;
+//    color: #c00c00;
+//    font-weight: 400;
+//    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+//    font-weight: 700;
+//    color: #b5b5b5;
+//    font-weight: 300;
+//    font-size: 2rem;
+//    line-height: 4.6;
+//		margin-left: 3.9%;
+//		margin: 1.1% 0 0 3.9%;
+			margin: 1.15% 0 0 3.9%;
+			
+	
+			
+			span {
+				display: none;
+			}
 		}
 
 .workContainer {
