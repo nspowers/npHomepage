@@ -1460,7 +1460,7 @@ button {
     line-height: 1.9; }
   #primaryNav {
     position: absolute;
-    top: .6%;
+    top: -1.11%;
     bottom: 0;
     left: 0;
     right: 2%;
@@ -1593,8 +1593,6 @@ button {
     margin-right: 12.07vh;
     margin: 1.15% 0 0 3.9%; }
     .home p {
-      display: block; }
-    .home span {
       display: none; }
   .workContainer {
     overflow: hidden; }
@@ -2674,6 +2672,10 @@ p {
   background: #E9E9E9;
   font-weight: 700; }
 
+.homeIntroImg {
+  height: 40%;
+  height: 90vh; }
+
 .homeIntroBlock {
   padding-top: 6%; }
   .homeIntroBlock h2 {
@@ -2739,6 +2741,92 @@ p {
       color: #333; }
       .selectedWork .workItem p:hover {
         color: steelblue; }
+
+.selectedWorkGrid {
+  margin: 0;
+  padding: 0;
+  background: #f6f6f6; }
+  .selectedWorkGrid .columns {
+    margin: 0;
+    padding: 0; }
+
+.gridImgContainer {
+  margin: 0;
+  padding: 0;
+  transition-property: -webkit-transform, opacity;
+  transition-duration: 0.6s, 0.3s;
+  box-sizing: border-box;
+  overflow: hidden; }
+  .gridImgContainer::hover {
+    transition-property: -webkit-transform, opacity;
+    transition-duration: 0.6s, 0.3s; }
+  .gridImgContainer h3 {
+    padding-top: 4%;
+    font-size: 4rem;
+    font-size: 3.5rem;
+    color: #0B151E; }
+  .gridImgContainer .gridImgLinkTitle {
+    position: relative;
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid #fff;
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 2% 5%; }
+
+.gridImgLinkTitle {
+  padding: 2% 5%; }
+
+.gridImgBg {
+  overflow: hidden;
+  background-size: cover; }
+
+.cosBgLink:hover,
+.smaBgLink:hover,
+.arrVidBgLink:hover,
+.sportMgmtBgLink:hover,
+.arrBgLink:hover {
+  transform: scale(1.1);
+  transition-duration: .7s; }
+
+.cosBgLink {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), transparent url("../img/assets/backgrounds/science-bg.jpg") no-repeat center top;
+  background-size: cover; }
+
+.smaBgLink {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), transparent url("../img/assets/backgrounds/sma-bg.jpg") no-repeat center top;
+  background-size: cover; }
+
+.arrVidBgLink {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), transparent url("../img/assets/backgrounds/arrVidBg.jpg") no-repeat center top;
+  background-size: cover; }
+
+.sportMgmtBgLink {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), transparent url("../img/assets/backgrounds/spm-coaching.jpg") no-repeat center top;
+  background-size: cover;
+  opacity: .9; }
+
+.arrBgLink {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), transparent url("../img/assets/arr-alpaca-origin.jpg") no-repeat 0 32%;
+  background-size: cover;
+  opacity: .9; }
+
+.gridImgOverlay {
+  height: 305px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .gridImgOverlay:before {
+    background-color: #000; }
+
+.selectedWorkTitle {
+  height: 190px;
+  padding-top: 8%;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #FFF;
+  line-height: 1.4;
+  padding: 0px 40px; }
 
 .about {
   background: #fff;
@@ -3107,7 +3195,6 @@ cosDeliveryHomepage,
 .about,
 .contact,
 .homeIntroBlock,
-.selectedWork,
 .projectNotes {
   padding: 2% 4%; }
 
@@ -3455,7 +3542,8 @@ a.workLink:hover .learnMoreArrow {
 
 .homeIntroImg {
   height: 40%;
-  height: 60vh; }
+  height: 60vh;
+  height: 85vh; }
 
 .introImg {
   height: 30%;
@@ -3688,6 +3776,14 @@ footer ul li a {
     background: #1199bf; } }
 
 @media only screen and (min-width: 40.063em) {
+  .selectedWorkTitle {
+    height: 305px;
+    padding-top: 8%;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #FFF;
+    line-height: 1.4;
+    padding: 0px 40px; }
   .workTitleBlock {
     margin-top: 136px; }
   .medium-block-grid-3 > li:nth-of-type(1n) {
@@ -3704,6 +3800,12 @@ footer ul li a {
     font-weight: 700; }
   .indexHome {
     height: 70%; }
+  .contact p {
+    text-align: center; }
+  .ctaCall {
+    display: none; }
+  .ctaButtons:last-of-type {
+    margin: 0 auto; }
   .homeTitleBlock {
     margin-top: 30%;
     padding: 3% 4%; }
@@ -3748,7 +3850,8 @@ footer ul li a {
     font-size: 2.1rem;
     letter-spacing: 1px; }
   .homeIntroImg {
-    height: 432px; }
+    height: 432px;
+    height: 80vh; }
   .introImg {
     height: 371px; }
   .workLead {
@@ -3865,6 +3968,14 @@ footer ul li a {
     padding: 5% 4%; } }
 
 @media only screen and (min-width: 60em) {
+  .snglHome {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    top: 0; }
+  .homeContent {
+    margin-left: 0;
+    margin-right: 0; }
   .homeIntroBlock,
   .workServices,
   .about,
@@ -3881,6 +3992,13 @@ footer ul li a {
     .projectProcess .columns {
       margin: 0;
       padding: 0; }
+  .about {
+    padding: 3% 0 4% 0; }
+  .contact p {
+    margin-bottom: 3%;
+    font-size: 1.75rem; }
+  .contact .ctaEmail {
+    margin-bottom: 6%; }
   .centeredImg {
     margin: 0 auto;
     width: 82%; }
@@ -4004,9 +4122,6 @@ footer ul li a {
     margin-top: 1.5%; }
   .fullMax {
     max-width: 70%; }
-  .selectedWork {
-    font-size: 2rem;
-    margin-top: 5%; }
   .footerNextTitle {
     font-size: 3.1rem; }
   .indexForm article {
@@ -4259,7 +4374,16 @@ footer ul li a {
 @media (min-width: 770px) {
   #contentContainer {
     margin: 3% 4% 0 4%; }
+  .homeContentContainer {
+    margin: 0; }
+  .homeNavContainer {
+    background: transparent; }
   #navMenuBtn {
+    display: none; }
+  .homeHeroBlock h2 {
+    margin-top: 8%;
+    font-size: 2.75rem; }
+  .homeHeroBlock h3 br:last-of-type {
     display: none; }
   .teamContributions td {
     width: 50%;
@@ -4335,8 +4459,20 @@ footer ul li a {
     background: #fff;
     margin: 2% 4% 0 4%;
     margin: 3% 4% 0 4%; }
+  .homeContentContainer {
+    margin: 0; }
+  .homeNavContainer {
+    background: transparent; }
+  .home span {
+    margin-left: 2%;
+    top: -19px; }
   .introImg {
     height: 371px; }
+  .homeIntroBlock h2 {
+    margin-top: 0;
+    padding-top: 9%; }
+  .serviceColumns {
+    padding: 0 5% 0 0; }
   .workTitleBlock {
     margin-top: 136px;
     margin-left: 8%; }

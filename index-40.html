@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NathanielPowers.com</title>
+        <link rel="stylesheet" href="css/application.css">
+
+    <meta name="viewport" content="width=device-width">
+  </head>
+
+<body class="flexbox-wrapper">
+  <main class="page-wrapper">
+		<header id="top">
+
+			<div class="primaryNavContainer homeNavContainer">
+				<a class="home" href="http://nathanielpowers.com">
+						<p>nathaniel powers</p>
+						<span><p>np</p></span>
+				</a>
+			<button id="navMenuBtn">MENU</button>
+				<nav id="primaryNav">
+					<ul>
+						<li>
+							<a href="index.html">HOME</a>
+						</li>
+						<li>
+							<a href="#selectedWork">WORK</a>
+						</li>
+						<li>
+							<a href="#about">ABOUT</a>
+						</li>
+						<li>
+							<a href="#contact">CONTACT</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+	<div class="contentContainer homeContentContainer snglHome">
+		<div class="homeIntroImg snglHomeIntroImg">
+			
+			<section class="homeIntroBlock">
+
+					<h2>Hi, I'm Nathaniel</h2>
+					<h3>I help organizations </br> <span>grow</span> </br> their brand.</h3>
+<!--				</div>-->
+<!--			</div>-->
+				
+		</section>
+	</div>
+		
+		
+		
+		<section id="about" class="about">
+			<hr>
+				<h3 class="sectionTitle">About</h3>
+
+			<div class="row">
+				<div class="small-12 medium-10 large-12 columns">
+					<p>I am a design and communications consultant. I translate your thoughts into clear and effective copy and then design delivery tools of print, digital, or visual to communicate the message.</p>
+<!--					<p>You can follow my progress on Twitter @Nathaniel Powers and Instagram @NathanielPowers</p>-->
+				</div>
+			</div>
+		</section>
+		
+		<section id="contact" class="contact">
+				<h3 class="sectionTitle">Contact</h3>
+
+			<div class="row">
+				<div class="small-12 medium-10 large-12 columns">
+					<p>Like what you see and want to chat?</p>
+				</div>
+
+					<div class="small-12 medium-6 large-6 ctaButtons ctaCall">
+						<a href="tel:1-864-517-5507">
+						<button class="callNathaniel">Call Nathaniel</button>
+						</a>
+					</div>
+					<div class="small-12 medium-8 large-8 ctaButtons ctaEmail">
+						<a href="mailto:nathaniel@nathanielpowers.com?subject=Website Contact">
+						<button class="emailNathaniel">Email Nathaniel</button>
+						</a>
+					</div>
+			</div>
+		</section>
+			
+  </div> <!-- end contentContainer -->
+	</main>
+
+				<footer>&copy; 2016 Nathaniel Powers</footer>
+				
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/foundation.sidebar.js"></script>
+    <script src="js/app.js"></script>
+
+  <script src="http://code.jquery.com/jquery.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(document).ready(function(){
+    	$("#navMenuBtn").click(function(){
+        $(".primaryNavContainer").toggleClass("navActive");
+    });
+		});
+	});
+	</script>
+ 
+</body>
+</html>

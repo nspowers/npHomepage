@@ -166,162 +166,61 @@ p {
 .selectedWorkGrid {
 	margin: 0;
 	padding: 0;
-//	background: steelblue;
-	background: #f6f6f6;
+	background: steelblue;
 	
 	.columns {
 	  margin: 0;
     padding: 0;
 	}
-	
-//	.small-12 {
-//		max-width: 100%;
-//		width: 100%;
-//	}
-//	
-//	.medium-6 {
-//		max-width: 100%;
-//		width: 100%;
-//	}
 }
 
 .gridImgContainer {
 	margin: 0;
 	padding: 0;
-//	background: green;
-//	border: 1px solid yellow;
-//	height: 377px;
+	background: green;
+	border: 1px solid yellow;
+	height: 377px;
 	transition-property: -webkit-transform, opacity;
   transition-duration: 0.6s, 0.3s;
 	box-sizing: border-box;
-	overflow: hidden;
-	
-//	.gridImgOverlay::before {
+
+
+	.gridImgOverlay {
 //		background-color: #000;
 //  	opacity: 0.35;
 	
-//		position: absolute;
-//  	top: -5px;
-//  	left: -5px;
-//  	bottom: -5px;
-//  	right: -5px;
-//	}
-	&::hover {
-		transition-property: -webkit-transform, opacity;
-  	transition-duration: 0.6s, 0.3s;
-	}
-	
-	h3 {
-		padding-top: 4%;
-//	  															margin: -7.85% 0 0 9.9%;
-    															font-size: 4rem;
-    font-size: 3.5rem;
-		color: #0B151E;
+		position: absolute;
+  	top: -5px;
+  	left: -5px;
+  	bottom: -5px;
+  	right: -5px;
 	}
 
 	.gridImgLinkTitle {
 		position: relative;
-//  	font-size: 14px;
+  	font-size: 14px;
   	text-transform: uppercase;
   	color: #fff;
-//  	line-height: 47px;
-//  	height: 50px;
-//  	padding: 0 30px;
+  	line-height: 47px;
+  	height: 50px;
+  	padding: 0 30px;
   	border: 2px solid #fff;
   	font-weight: 600;
-		font-size: 2rem;
-    padding: 2% 5%;
 	}
 }
-
-	.gridImgLinkTitle {
-		padding: 2% 5%;
-	}
-
-.gridImgBg {
-	overflow: hidden;
-	background-size: cover;
-	
-//	&:hover {
-//		transform: scale(1.25);
-//	}
-}
-
-//.gridImgContainer:hover > .gridImgBg {
-//		transform: scale(1.25);
-//}
-
-.cosBgLink,
-.smaBgLink,
-.arrVidBgLink,
-.sportMgmtBgLink,
-.arrBgLink {
-	&:hover {
-		transform: scale(1.1);
-		transition-duration: .7s;
-	}
-}
-
-.cosBgLink {
-	background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transparent url("../img/assets/backgrounds/science-bg.jpg") no-repeat center top;
-	background-size: cover;
-}
-
-.smaBgLink {
-background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transparent url("../img/assets/backgrounds/sma-bg.jpg") no-repeat center top;
-  background-size: cover;
-}
-
-.arrVidBgLink {
-background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transparent url("../img/assets/backgrounds/arrVidBg.jpg") no-repeat center top;
-  background-size: cover;
-}
-
-.sportMgmtBgLink {
-background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transparent url("../img/assets/backgrounds/spm-coaching.jpg") no-repeat center top;
-  background-size: cover;
-    opacity: .9;
-}
-
-.arrBgLink {
-background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transparent url("../img/assets/arr-alpaca-origin.jpg") no-repeat 0 32%;
-  background-size: cover;
-  opacity: .9;
-//    padding-bottom: 62%;
-
-}
-
 
 .gridImgOverlay {
-//	height: 377px;
-	height: 305px;
-	display: flex;
-  justify-content: center;
-  align-items: center;
-	
-	&:before {
-		background-color: #000;
-	}
-}
-
-//.gridImgContainer:hover > .gridImgOverlay {
-//    transform: scale(.82);
-//}
-
-.selectedWorkTitle {
-//  height: 222px;
-	height: 190px;
-	padding-top: 8%;
-	font-size: 2rem;
-	text-transform: uppercase;
-	color: #FFF;
-	line-height: 1.4;
-//	height: 50px;
-	padding: 0px 40px;
+	background-color: #000;
+  opacity: 0.35;
 }
 
 .cosLink {
 	
+}
+
+.arrLink {
+	background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transparent url("../img/assets/backgrounds/science-bg.jpg") no-repeat center top;
+  background-size: cover;
 }
 
 .chargeLink {
@@ -1541,7 +1440,6 @@ background: gray url('../img/backgrounds/sptmBg.jpg') no-repeat top center;
 .homeIntroImg {
 	height: 40%;
 	height: 60vh;
-	height: 85vh;
 }
 
 .introImg {
@@ -1992,17 +1890,7 @@ footer ul li a {
   
     
     
-    .selectedWorkTitle {
-//  height: 222px;
-	height: 305px;
-	padding-top: 8%;
-	font-size: 2rem;
-	text-transform: uppercase;
-	color: #FFF;
-	line-height: 1.4;
-//	height: 50px;
-	padding: 0px 40px;
-}
+    
     
     
   
