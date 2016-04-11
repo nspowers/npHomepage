@@ -1,0 +1,603 @@
+$cosHovColor: #990000;
+$cosHovColor: #B80013;
+$spmHovColor: #990000;
+$arrRanchHovColor: #a52a2a;
+$arrPromoHovColor: #427E93;
+$smaHovColor: #990000;
+$devicesHovColor: #efcc3a;
+
+$other: #b40202;
+
+$globalPageBackground: #F4F4F4;
+
+
+.indexWork article {
+	padding: 0;
+	
+	&:first-of-type {
+		padding-top: 0;
+	}
+	
+//	&:last-of-type {
+//		padding-bottom: 10%;
+//	}
+}
+
+.seeMoreWorkBtn {
+//	margin: 0 auto;
+	text-align: center;
+	
+	    position: absolute;
+    top: 36%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+	
+	p {
+		font-size: 2rem;
+		text-transform: uppercase;
+		font-family:'Montserrat', sans-serif;
+		letter-spacing: 1px;
+		
+		span {
+			font-weight: 700;
+		}
+	}
+}
+
+.project {
+//    margin-top: 4%;
+    margin-top: 0;
+    overflow: hidden;
+
+}
+
+.projectImg {
+    position: relative;
+    background-size: cover;
+    height: 300px;
+//    background-color: #333;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+//    moz-transition: all 1s ease;
+//    transition: all 1s ease;
+	
+//    -moz-transition: all 1s linear;
+//    -ms-transition: all 1s linear;
+//    -o-transition: all 1s linear;
+//    -webkit-transition: all 1s linear;
+//    transition: all 1s linear;
+
+    &:hover {
+//			background-image: none;
+			//        background-position: 12% 30%;
+//        transition-timing-function: cubic-bezier(.42, 0, .58, 1);
+    }
+}
+
+.colorLayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+		 -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all .7s ease; /* Firefox */
+    -ms-transition: all .7s ease; /* IE 9 */
+    -o-transition: all .7s ease; /* Opera */
+    transition: all .7s ease;
+}
+
+//.projectImg:hover > .cosHovColor {
+//	background: $cosHovColor;
+//}
+
+.cosHovColor {
+//	background: transparent;
+//	    -webkit-transition: all 1s ease; /* Safari and Chrome */
+//    -moz-transition: all .7s ease; /* Firefox */
+//    -ms-transition: all .7s ease; /* IE 9 */
+//    -o-transition: all .7s ease; /* Opera */
+//    transition: all .7s ease;
+	&:hover {
+	background: $cosHovColor;
+	}
+}
+
+.spmHovColor {
+	
+	&:hover {
+	background: $spmHovColor;
+	}
+}
+
+.arrHovColor {
+	
+	&:hover {
+	background: $arrRanchHovColor;
+	}
+}
+
+.arrPromoHovColor {
+	
+	&:hover {
+	background: $arrPromoHovColor;
+	}
+}
+
+.smaHovColor {
+	
+	&:hover {
+	background: $smaHovColor;
+	}
+}
+
+.devicesHovColor {
+	
+	&:hover {
+	background: $devicesHovColor;
+	}
+}
+
+.cosProjectImg {
+    background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.84)
+    ),
+    url("../img/assets/m/cosProjectTileMobile.jpg")
+    no-repeat center center;
+//    background-position: 42% 30%;
+    background-size: cover;
+//		background-color: #4156A1;
+
+	
+//	&:hover {
+//		background: #4156A1;
+//	}
+}
+
+.spmProjectImg {
+    background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.84)
+    ),
+    url("../img/assets/m/sptProjectTileMobile.jpg")
+    no-repeat center center;
+//    background-position: 59% 35%;
+    background-size: cover;
+		background-color: #990000;
+	
+//	&:hover {
+//		background: #990000;
+//	}
+}
+
+.arrInternImg {
+background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.84)
+    ),
+    url("../img/assets/m/arrTileMobile.jpg")
+    no-repeat center center;
+	background-size: cover;
+	background-color: #D14905;
+	
+//	&:hover {
+//		background: #D14905;
+//	}
+	
+}
+
+
+.moreWorkBg {
+//    background:
+//    linear-gradient(
+//      to bottom,
+//      rgba(0, 0, 0, 0),
+//      rgba(0, 0, 0, 0.84)
+//    ),
+//    url("../img/assets/m/moreWorkTileMobile.jpg")
+//    no-repeat center center;
+//    background-position: 59% 35%;
+    background-size: cover;
+	background: steelblue;
+}
+
+
+.arrPromoImg {
+background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.84)
+    ),
+    url("../img/assets/m/arrPromoTileMobile.jpg")
+    no-repeat center center;
+	background-size: cover;
+	background-color: #427E93;
+	
+//	&:hover {
+//		background: #427E93;
+//	}
+	
+}
+
+.smaProjectImg {
+background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.84)
+    ),
+    url("../img/assets/m/smaProjectTileMobile.jpg")
+    no-repeat center center;
+	background-size: cover;
+	background-color: #990000;
+	
+//		&:hover {
+//		background: #990000;
+//	}
+}
+
+.projectTitle {
+    h3 {
+    /*padding: 1.5% 0 .5% 0;*/
+//    padding: 48.7% 0 .5% 0;
+    padding: 64.7% 0% 0.5% 15px;
+//    font-size: 2rem;
+    font-size: 1.75rem;
+/*    font-size: 1.65rem;
+*/    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    text-align: left;
+    color: #FFF;
+//    text-shadow: 0px 2px 1px #333;
+//			text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+			
+			
+			
+			
+			    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 59%;
+    left: 4%;
+			
+			
+			
+    }
+}
+
+.projectDesc {
+    display: none;
+    width: 50%;
+    margin: 0 auto;
+    p {
+        color: #333;
+        margin-top: -7px;
+        font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1.35;
+//        font-size: 1.44rem;
+        font-size: 1.3rem;
+        text-align: center;
+        color: #fff;
+        line-height: 1.65;
+        margin-top: 3%;
+				font-weight: 600;
+    }
+}
+
+
+@media only screen and (min-width: 550px) {
+    .indexHome {
+        height: 88%;
+    }
+    
+    .homeTitleBlock {
+        margin-top: 14%;
+        padding: 3% 4%;
+    }
+    
+    .projectImg    {
+        background-size: cover;
+        height: 200px;
+    }
+    
+    .projectTitle h3 {
+//        padding: 12.7% 0 .5% 27px;
+//        font-size: 2.5rem;
+    }
+    
+    .indexAbout .twoColumnText {
+        margin-bottom: 6%;
+    }
+    
+    .contactFormGreeting {
+        text-align: center;
+    }
+    
+    #contactFormSubmit {
+//        padding: 4%;
+			    padding: 2.5%;
+    }
+}
+
+
+@media only screen and (min-width: 35em) {
+  .project {
+    margin-top: 4%;
+    overflow: hidden;
+
+}
+
+.projectImg {
+//    height: 400px;
+//    transition: all 1s ease;
+    height: 250px;
+
+//    &:hover {
+//        background-position: 12% 30%;
+//        transition-timing-function: cubic-bezier(.42, 0, .58, 1);
+//    }
+}
+	
+	
+.arrPromoImg {
+    background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.84)
+    ),
+    url("../img/worklist/arrVidBg.jpg")
+    no-repeat center center;
+	background-size: cover;
+	background-color: #000;
+}	
+	
+
+.cosProjectImg {
+    background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.84)
+    ),
+    url("../img/work/cos-homepage-mobile-1370x719-full-size-for-web.jpg")
+    no-repeat center center;
+}
+
+.spmProjectImg {
+    background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.84)
+    ),
+    url("../img/worklist/-spm-coaching.jpg")
+    no-repeat center center;
+	background-size: cover;
+	//
+}
+	
+.smaProjectImg {
+    background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.84)
+    ),
+    url("../img/worklist/sma-meeting-header.jpg")
+    no-repeat center center;
+	background-size: cover;
+}
+    
+    .projectTitle {
+    h3 {
+//    padding: 30.7% 0 .5% 0;
+//    font-size: 2.75rem;
+//            position: absolute;
+//    margin: 0 auto;
+//    /* text-align: center; */
+//    left: 10%;
+//    right: 10%;
+//    top: -26%;
+        
+        
+//            padding: 10.7% 0 .5% 20px;
+//            padding: 22.7% 0 .5% 20px;
+//    font-size: 2.75rem;
+
+    }
+}
+
+.projectDesc {
+    display: none;
+    width: 50%;
+    margin: 0 auto;
+    p {
+        margin-top: -7px;
+        font-size: 1.3rem;
+        line-height: 1.65;
+        margin-top: 3%;
+    }
+}
+
+.indexHome,
+.indexWork,
+.indexForm {
+//    background-color: #f2f2f2;
+		background: $globalPageBackground;
+
+}
+
+    .indexAbout {
+        background-color: #F7F7F7;
+        background-color: #f2f2f2;
+        padding-bottom: 4%;
+ 
+    }
+
+.indexForm {
+    padding-top: 4%;
+    background: #1199bf;
+    background: #2A3A4B;
+    background: #45607c;
+	background: #eee;
+}    
+    
+    
+    
+}
+
+
+@media only screen and (min-width: 60em) {
+	
+	
+.indexWork article {
+//	padding: 2% 9.8% 0 9.8%;
+	    margin-bottom: 5%;
+//padding: 0;
+    padding: 0 9.8%;	
+	&:first-of-type {
+		padding-top: 0;
+	}
+	
+	&:last-of-type {
+		margin-bottom: 0;
+		padding-bottom: 6%;
+	}
+}	
+  
+//  .workTitleBlock {
+//    margin-top: 325px;
+//  }
+  
+    .project {
+//    margin-top: 4%;
+margin-top: 0;   
+			overflow: hidden;
+
+}
+
+.projectImg {
+    height: 400px;
+//    transition: all 1s ease;
+
+    &:hover {
+//        background-position: 12% 30%;
+			
+			
+		// Hide these transitions to hover color over images
+			
+//			-webkit-transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+//			-moz-transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+//      transition-timing-function: cubic-bezier(.42, 0, .58, 1);
+//			background-position: 1px;
+    }
+}
+
+.cosProjectImg {
+    background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.84)
+    ),
+    url("../img/work/cos-homepage-mobile-1370x719-full-size-for-web.jpg")
+    no-repeat center center;
+}
+
+//.spmProjectImg {
+//    background:
+//    linear-gradient(
+//      to bottom,
+//      rgba(0, 0, 0, 0),
+//      rgba(0, 0, 0, 0.84)
+//    ),
+//    url("../img/work/-spm-coaching.jpg")
+//    no-repeat center center;
+//}
+    
+.arrInternImg {
+background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.84)
+    ),
+    url("../img/work/arr/arr-dexter-cattle.jpg")
+    no-repeat center center;
+	background-size: cover;
+}
+	
+    .aboutImg {
+        width: 82%;
+        margin: 0 auto;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 90%, #F7F7F7 100%) repeat scroll 0% 0%, transparent url("../img/work/mountains-about.jpg") no-repeat top left;
+    background-size: cover;
+    height: 323px;
+    }
+    
+.profilePic {
+  margin: 0 auto;
+  height: 205px;
+  background-color: #333;
+  border-radius: 50%;
+  display: block;
+  margin-top: 0;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.projectTitle {
+    h3 {
+//    padding: 13.7% 0 .5% 0;
+//    font-size: 2.75rem;
+//        text-align: center;
+    }
+}
+
+.projectDesc {
+//	margin: 0;
+//	padding: 0;
+//	position: absolute;
+//	top: 60%;
+//    display: block;
+//    width: 50%;
+//    margin: 0 auto;
+	display: block;
+    p {
+			
+//			margin: 0;
+//	padding: 0;
+//	position: absolute;
+//	top: 60%;
+//        margin-top: -7px;
+        font-size: 1.3rem;
+        line-height: 1.65;
+//        margin-top: 3%;
+			
+			
+			
+			margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 69%;
+    font-size: 1.3rem;
+    line-height: 1.65;
+    /* display: block; */
+    text-align: left;
+    left: 4%;
+    }
+}
+}
+

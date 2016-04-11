@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NathanielPowers.com</title>
+    <meta name="description" content="Nathaniel Powers' design, coding, marketing" />
+    <meta name="keywords" content="web design, coding, website, homepage" />
+    <meta name="author" content="Nathaniel Powers" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/application.css">
+  </head>
+
+<body class="flexbox-wrapper">
+  <main class="page-wrapper">
+<div id="headerImg" class="takeChargeImg">
+		<header id="top">
+
+			<div class="primaryNavContainer homeNavContainer">
+				<a class="home" href="#top">
+						<p>nathaniel powers</p>
+						<span><p>np</p></span>
+				</a>
+			<button id="navMenuBtn">MENU</button>
+				<nav id="primaryNav">
+					<ul>
+						<li>
+							<a href="index.html">HOME</a>
+						</li>
+						<li>
+							<a href="work.html">WORK</a>
+						</li>
+						<li>
+							<a href="about.html">ABOUT</a>
+						</li>
+						<li>
+							<a href="index.html#contact">CONTACT</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		</div>
+	<div class="contentContainer homeContentContainer snglHome">
+
+	<section id="aboutRole">
+		<div class="error404">
+			<div class="row">
+				<div class="small-12 roleTitles">
+					<h2>Woops!!</h2>
+					<h3>Two roads diverged and this one led here...</h3>
+                   <h4>Sorry, the link may be broken or got lost along the way.
+                   <br>
+                   Try going back to the homepage:</h4>
+                    <div class="backtoHomepage">
+                       <a href="index.html">
+                        <button>Back to Home</button>
+                        </a>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+  </div> <!-- end contentContainer -->
+	</main>
+
+				<footer>&copy; 2016 Nathaniel Powers</footer>
+				
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/foundation.sidebar.js"></script>
+    <script src="js/app.js"></script>
+
+  <script src="http://code.jquery.com/jquery.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(document).ready(function(){
+    	$("#navMenuBtn").click(function(){
+        $(".primaryNavContainer").toggleClass("navActive");
+    });
+		});
+	});
+	</script>
+ 
+</body>
+</html>

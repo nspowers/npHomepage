@@ -3,7 +3,6 @@
 //	margin-right: 0;
 //}
 
-
 .row {
 	margin-left: auto;
   margin-right: auto;
@@ -108,13 +107,13 @@ filter: grayscale(100%);
 			border-bottom-width: 0;
     	color: #fff;
 //    	display: block;
-			width: 47%;
+			width: 100%;
     	display: inline-block;
 		}
 	
 		.linkTypePrevious {
 			display: block;
-			margin-right: 5%;
+//			margin-right: 5%;
 		}
 	
 		.project-CSM {
@@ -122,6 +121,20 @@ filter: grayscale(100%);
 		
 		figure {
 			position: relative;
+			border: none;
+		}
+		
+		.figurePrevious {
+			margin-bottom: 7%;
+		}
+		
+		.backToWorkBtn {
+			background: steelblue;
+		}
+		
+		.backtoWorkLink {
+			position: absolute;
+			top: 30px;
 		}
 		
 		.otherWorkLinkImg {
@@ -135,14 +148,39 @@ filter: grayscale(100%);
   	  top: 0;
   	  color: #fff;
   	  margin: 0;
-  	  padding: 20px 30px 0;
+//  	  padding: 20px 30px 0;
   	  text-align: center;
     	z-index: 1;
+			    background: rgba(33, 33, 33, .5);
+					-webkit-transition: all .7s ease; /* Safari and Chrome */
+    			-moz-transition: all .7s ease; /* Firefox */
+    			-ms-transition: all .7s ease; /* IE 9 */
+    			-o-transition: all .7s ease; /* Opera */
+    			transition: all .7s ease;
+
+			&:hover {
+			    background: rgba(33, 33, 33, .7);
+					-webkit-transition: all .7s ease; /* Safari and Chrome */
+    			-moz-transition: all .7s ease; /* Firefox */
+    			-ms-transition: all .7s ease; /* IE 9 */
+    			-o-transition: all .7s ease; /* Opera */
+    			transition: all .7s ease;
+			}
 		}
 		
 		.linkTypePrefix {
 			display: block;
     	color: #fff;
+			font-size: 1.2rem;
+    	font-weight: 700;
+			margin-top: 19%;
+    	font-size: 2rem;
+		}
+
+		.otherWorkLinkTitle {
+		font-size: .9rem;
+			font-weight: 700;
+			font-size: 1.5rem;
 		}
 	}
 
@@ -171,7 +209,8 @@ filter: grayscale(100%);
 	.workLead {
 		margin: 6% 4% 3.5% 4%;
     font-size: 1.4rem;
-	}
+        margin: 6% 4% 4% 3%;
+    }
 	
 	.servicesDeliverables {
     padding: 0% 5% 6% 6%;
@@ -277,39 +316,67 @@ filter: grayscale(100%);
 			position: relative;
 		}
 		
+		.figurePrevious {
+			margin-bottom: 0;
+		}
+		
 		.otherWorkLinkImg {
 			width: 100%;
+			
+			&::before {
+				background: rgba(33, 33, 33, .5);
+			}
 		}
 		
 		.otherWorkLinkInfo {
 			width: 100%;
   	  height: 100%;
   	  position: absolute;
-  	  top: 0;
+//  	  top: 32%;
   	  color: #fff;
   	  margin: 0;
   	  padding: 20px 30px 0;
   	  text-align: center;
     	z-index: 1;
 		}
-		
+//		
 		.linkTypePrefix {
-			display: block;
-    	color: #fff;
+//			display: block;
+//    	color: #fff;
+			font-size: 2rem;
+			margin-top: -2%;
+//    	font-weight: 700;		
+		}
+//		
+		.otherWorkLinkTitle {
+		font-size: 1.5rem;
+			font-weight: 700;
 		}
 		
-		.linkTypePrevious {
-			
-								-webkit-transition: all 1s ease; /* Safari and Chrome */
-    -moz-transition: all 1s ease; /* Firefox */
-    -ms-transition: all 1s ease; /* IE 9 */
-    -o-transition: all 1s ease; /* Opera */
-    transition: all 1s ease;
-			
-			&:hover {
+//		.linkTypePrevious {
+//			
+//								-webkit-transition: all 1s ease; /* Safari and Chrome */
+//    -moz-transition: all 1s ease; /* Firefox */
+//    -ms-transition: all 1s ease; /* IE 9 */
+//    -o-transition: all 1s ease; /* Opera */
+//    transition: all 1s ease;
+//			
+//			&:hover {
+//		
+//				.figurePrevious {
+//					margin-left: -3%;
+//					-webkit-transition: all 11s ease; /* Safari and Chrome */
+//    -moz-transition: all 11s ease; /* Firefox */
+//    -ms-transition: all 11s ease; /* IE 9 */
+//    -o-transition: all 11s ease; /* Opera */
+//    transition: all 11s ease;
+//					
+//				}
+//			}
+//		
+//		}
 		
-				.figurePrevious {
-					margin-left: -3%;
+		.figurePrevious {
 					-webkit-transition: all 1s ease; /* Safari and Chrome */
     -moz-transition: all 1s ease; /* Firefox */
     -ms-transition: all 1s ease; /* IE 9 */
@@ -317,9 +384,6 @@ filter: grayscale(100%);
     transition: all 1s ease;
 					
 				}
-			}
-		
-		}
 		
 //		.linkTypePrevious:hover {
 //
@@ -334,7 +398,7 @@ filter: grayscale(100%);
 			&:hover {
 		
 				.figureNext {
-					margin-right: -3%;
+//					margin-right: -3%;
 				}
 			}
 		
@@ -486,11 +550,17 @@ filter: grayscale(100%);
     padding: 20px 30px 0;
     text-align: center;
     z-index: 1;
+		padding-top: 21%;
+
+
+
+
+
 	}
-	.linkTypePrefix {
-	display: block;
-    color: #fff;
-	}
+//	.linkTypePrefix {
+//	display: block;
+//    color: #fff;
+//	}
 	
 	}
 }

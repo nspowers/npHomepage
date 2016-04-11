@@ -1,3 +1,6 @@
+// Sets color for non-background image navigation, as defined by navContrast class
+$navContrast: #333;
+
 .primaryNavContainer {
   display: block;
 //    height: 10vh;
@@ -28,6 +31,11 @@
 	  z-index: 999;
 }
 
+
+.home span {
+	top: 7px;
+}
+
 #navMenuBtn {
 	padding: 5%;
 //  color: #FFF;
@@ -41,8 +49,25 @@
 	color: #878787;
 	line-height: 1.55;
 	position: absolute;
-	position: fixed;
+//	position: fixed;
 
+}
+
+//.navBlock {
+////    display: block;
+//    visibility: visible;
+//}
+
+.navZShow {
+    z-index: 999999 !important;
+    display: block !important;
+}
+
+.headerImg {
+}
+
+.headerHeight {
+    height: 100vh !important;
 }
 
 .navActive {
@@ -52,6 +77,10 @@
 	  -moz-transition   : all .4s linear;
     -webkit-transition: all .4s linear;
     -o-transition     : all .4s linear;
+    
+    z-index: 99;
+    background: rgba(255,255,255,.9);
+    background: #F7F7F7;
 }
 
 #primaryNav {
@@ -68,12 +97,14 @@
 //
 //  margin: auto;
 	
-	
+//	visibility: hidden;
 		position: absolute;
     top: 25%;
     bottom: 0;
     left: 0;
     right: 0;
+    z-index: -1;
+    display: none;
 	
 	
 	ul {
@@ -86,11 +117,17 @@
 			margin: 0;
     	padding: 5%;
     	font-size: 1.5rem;
+			border-bottom: 2px solid #e6e6e6;
+    width: 73%;
+    margin: 0 auto;
 			
 			a {
 //				color: #FFF;
 				padding: 4%;
 				color: #878787;
+				text-transform: uppercase;
+    		font-family: 'Montserrat', sans-serif;
+				letter-spacing: 1.4px;
 				
 //				&:hover, :focus {
 //				color: yellow;}
@@ -115,6 +152,17 @@
     line-height: 1.9;
 	}
 	
+	// for non-background images, sets navigation text color
+	.navContrast {
+		a {
+			color: $navContrast !important;
+			
+			&:hover {
+				border-bottom: 4px solid $navContrast !important;
+			}
+		}
+	}
+	
 	#primaryNav {
     position: absolute;
 //    top: .6%;
@@ -131,6 +179,7 @@
 //		margin-top: .9%;
 //		margin-top: 1.5%;
 		top: 0.89%;
+        z-index: 9;
 		
 		// with add of name to logo 1 Feb 2016
 //		    margin-top: 2.8%;
@@ -150,22 +199,28 @@
 //    		padding: 4%;
     		font-size: 1.3rem;
 //				color: #878787;
-					-webkit-transition: all 1s ease; /* Safari and Chrome */
-    -moz-transition: all 1s ease; /* Firefox */
-    -ms-transition: all 1s ease; /* IE 9 */
-    -o-transition: all 1s ease; /* Opera */
-    transition: all 1s ease;
+//					-webkit-transition: all 1s ease; /* Safari and Chrome */
+//    -moz-transition: all 1s ease; /* Firefox */
+//    -ms-transition: all 1s ease; /* IE 9 */
+//    -o-transition: all 1s ease; /* Opera */
+//    transition: all 1s ease;
+                color: #fff;
+                border-bottom: 4px solid transparent;
+
 				
 	
 				&:hover {
 //					background-color: sienna;
 					color: #990000;
 					color: #b30000;
-						-webkit-transition: all 1s ease; /* Safari and Chrome */
-    -moz-transition: all 1s ease; /* Firefox */
-    -ms-transition: all 1s ease; /* IE 9 */
-    -o-transition: all 1s ease; /* Opera */
-    transition: all 1s ease;
+					color: #2A3A4B;
+                    color: #FFF;
+                    border-bottom: 4px solid #fff;
+//						-webkit-transition: all 1s ease; /* Safari and Chrome */
+//    -moz-transition: all 1s ease; /* Firefox */
+//    -ms-transition: all 1s ease; /* IE 9 */
+//    -o-transition: all 1s ease; /* Opera */
+//    transition: all 1s ease;
 				}
 			}
 		}

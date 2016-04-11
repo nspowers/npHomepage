@@ -11,6 +11,13 @@ $originUnderlineColor: #FAFAFA;
 
 $defaultTextColor: #333;
 
+$backToHomepageColor: #1199bf;
+$backToHomepageColorHOVER: steelblue;
+
+$globalPageBackground: #F4F4F4;
+
+$palmettoBlue: #2A3A4B;
+
 $mobileMargin: 4%;
 
 p {
@@ -97,28 +104,167 @@ p {
 	}
 }
 
+#aboutRole {
+//    background: url('../img/assets/backgrounds/science-bg.jpg');
+//    background-size: cover;
+//    background-repeat: no-repeat;
+//    
+    
+    background: url("../img/assets/backgrounds/webBg.jpg") no-repeat center center;
+  background-size: cover;
+        background-color: #2A3A4B;
+}
+
 .aboutRoleBlock {
-	background: #FFF;
+//	background: #FFF;
+//	background: #f6f6f6;
 	padding: 2%;
+    
+//        background: url('img/assets/backgrounds/cropped-web-cropped-blur-light-blue.jpg');
+//    background-size: cover;
+//    background-repeat: no-repeat;
+	
+//	h3 {
+//		text-align: center;
+//		font-size: 3rem;
+//		margin-bottom: 3%;
+//		
+//		font-size: 2.75rem;
+//    margin-top: 7%;
+//		
+//	}
+//	
+//	h4 {
+//		text-align: center;
+//		font-size: 2.75rem;
+//		
+//		font-size: 2.1rem;
+//    margin-top: 2%;
+//    font-weight: 500;
+//	}
+	
+	h2 {
+		font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+//    color: #fff;
+//    text-shadow: 1px 1px 1px #333;
+    line-height: 1.45;
+		line-height: 1.35;
+    margin-top: 5%;
+		text-align: left;
+		font-size: 3rem;
+//				padding-left: 27px;
+        color: #FFF;
+//        color: $palmettoBlue;
+
+        
+
+        
+	}
 	
 	h3 {
+		font-family: 'Montserrat', sans-serif;
+//    color: #fff;
+//    text-shadow: 1px 1px 1px #333;
+    font-size: 2.2em;
+    line-height: 1.75;
+    margin-bottom: 1.7em;
+    font-weight: 300;
+		text-align: left;
+//				padding-left: 27px;
+//		    color: #1199bf;
+		
+		font-size: 2em;
+    line-height: 1.2;
+        color: #FFF;
+//        color: $palmettoBlue;
+        
+
+
+ 
+	}
+}
+
+.moreWorkTitle h3 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 auto;
+//    position: absolute;
+//    top: 44%;
+//    left: 11%;
+    font-weight: 400;
+    text-align: left;
+    color: #FFF;
+    font-weight: 700;
+}
+
+
+.error404 {
+//	background: #FFF;
+//	background: #f6f6f6;
+	padding: 2%;
+	
+//	h3 {
+//		text-align: center;
+//		font-size: 3rem;
+//		margin-bottom: 3%;
+//		
+//		font-size: 2.75rem;
+//    margin-top: 7%;
+//		
+//	}
+//	
+//	h4 {
+//		text-align: center;
+//		font-size: 2.75rem;
+//		
+//		font-size: 2.1rem;
+//    margin-top: 2%;
+//    font-weight: 500;
+//	}
+	
+	h2 {
+		font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+//    color: #fff;
+//    text-shadow: 1px 1px 1px #333;
+    line-height: 1.45;
+		line-height: 1.35;
+    margin-top: 5%;
 		text-align: center;
 		font-size: 3rem;
-		margin-bottom: 3%;
-		
-		font-size: 2.75rem;
-    margin-top: 7%;
-		
+//				padding-left: 27px;
+
+        
+
+        
 	}
 	
-	h4 {
-		text-align: center;
-		font-size: 2.75rem;
+	h3 {
+		font-family: 'Montserrat', sans-serif;
+//    color: #fff;
+//    text-shadow: 1px 1px 1px #333;
+    font-size: 2.2em;
+    line-height: 1.75;
+    margin-bottom: 1.7em;
+    font-weight: 300;
+//				padding-left: 27px;
+		    color: #1199bf;
 		
-		font-size: 2.1rem;
-    margin-top: 2%;
-    font-weight: 500;
+		font-size: 2em;
+    line-height: 1.2;
+        
+                        margin-bottom: 0;
+
+
+ 
 	}
+    
+    h4 {
+        font-size: 1.5rem;
+        font-family: 'Montserrat', sans-serif;
+        color: #666;
+    }
 	
 }
 
@@ -161,7 +307,10 @@ p {
 //	margin-bottom: 4%;
 	margin-bottom: 0;
 //	font-size: 1.25rem;
-	background: #eee;
+//	background: #eee;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	padding: 3%;
 	
 	h3 {
 		margin: 4% 0 5% 0;
@@ -199,7 +348,8 @@ p {
 	margin: 0;
 	padding: 0;
 //	background: steelblue;
-	background: #f6f6f6;
+	background: #f2f2f2;
+	background: $globalPageBackground;
 	
 	.columns {
 	  margin: 0;
@@ -227,6 +377,7 @@ p {
   transition-duration: 0.6s, 0.3s;
 	box-sizing: border-box;
 	overflow: hidden;
+    border: none;
 	
 //	.gridImgOverlay::before {
 //		background-color: #000;
@@ -242,7 +393,7 @@ p {
 		transition-property: -webkit-transform, opacity;
   	transition-duration: 0.6s, 0.3s;
 	}
-	
+		
 	h3 {
 		padding-top: 4%;
 //	  															margin: -7.85% 0 0 9.9%;
@@ -250,7 +401,11 @@ p {
     font-size: 3.5rem;
 		color: #0B151E;
 		
-		font-size: 2.5rem;
+		
+		font-size: 2.25rem;
+		text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
 	}
 
 	.gridImgLinkTitle {
@@ -261,12 +416,16 @@ p {
 //  	line-height: 47px;
 //  	height: 50px;
 //  	padding: 0 30px;
-  	border: 2px solid #fff;
+//  	border: 2px solid #fff;
   	font-weight: 600;
 		font-size: 2rem;
     padding: 3% 6%;
 		display: inline;
 	}
+//    
+//    figure {
+//        border: none;
+//    }
 }
 
 	.gridImgLinkTitle {
@@ -291,9 +450,14 @@ p {
 .arrVidBgLink,
 .sportMgmtBgLink,
 .arrBgLink {
+			transition-duration: 1.7s;
+	background: transparent;
+
 	&:hover {
-		transform: scale(1.1);
+//		transform: scale(1.1);
 		transition-duration: .7s;
+//		background: #1199bf;
+		background: rgba(17,153,191,.85);
 	}
 }
 
@@ -326,6 +490,10 @@ background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transpare
 
 }
 
+.moreWorkImg {
+    background-color: $palmettoBlue;
+}
+
 
 .gridImgOverlay {
 //	height: 377px;
@@ -353,6 +521,7 @@ background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transpare
 	line-height: 1.4;
 //	height: 50px;
 	padding: 0px 40px;
+	padding-left: 0;
 }
 
 .cosLink {
@@ -370,6 +539,7 @@ background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transpare
 .about {
 	background: #fff;
 	border-bottom: 1px solid #eee;
+    background: #f2f2f2;
 	
 	.sectionTitle {
 		margin-top: 3%;
@@ -377,6 +547,10 @@ background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transpare
     font-size: 4rem;
     font-size: 2.5rem;
     color: #0B151E;
+//				padding-left: 27px;
+		margin-top: 7%;
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
 	}
 	
 	.columns {
@@ -386,6 +560,14 @@ background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transpare
 	hr {
 		display: none;
 	}
+	
+	p {
+		font-size: 1.3rem;
+	}
+	
+	a {
+		display: block;
+	}
 }
 
 .aboutContent {
@@ -393,7 +575,8 @@ background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transpare
     font-size: 1.5rem;
     width: 80%;
     margin: 0 auto;
-    padding-top: 2%
+    padding-top: 2%;
+//					padding-left: 27px;
 }
 
 .contact {
@@ -405,6 +588,8 @@ background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transpare
     font-size: 4rem;
     font-size: 2.5rem;
     color: #0B151E;
+//				padding-left: 27px;
+
 	}
 	
 	.columns {
@@ -413,6 +598,9 @@ background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transpare
 	
 	p {
 		margin-bottom: 7%;
+		font-size: 1.5rem;
+//						padding-left: 27px;
+
 	}
 	
 	a {
@@ -421,7 +609,7 @@ background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transpare
 	
 	.ctaButtons {
 		text-align: center;
-    background: steelblue;
+//    background: steelblue;
     padding: 3%;
     color: #fff;
     font-weight: 700;
@@ -429,9 +617,13 @@ background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transpare
     margin-bottom: 4%;
 		padding: 3%;
     width: 100%;
+		    font-size: 1.5rem;
 	}
 	
 	button {
+		    padding: 4% 17%;
+    background: steelblue;
+    border: 1px solid #ccc;
 //		text-align: center;
 //    background: steelblue;
 //    padding: 3%;
@@ -506,6 +698,10 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) {
 
 }
 
+.skillList {
+    background: #000026;
+}
+
 .skillPanel {
 	h4 {
 		font-size: 1.75rem;
@@ -575,7 +771,8 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) {
   background-color: #333;
   border-radius: 50%;
   display: block;
-  margin-top: -29%;
+//  margin-top: -29%;
+  margin-top: 12%;
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -600,9 +797,17 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) {
 // Contact Form Section
 
 .indexForm {
+//	margin: 0 4%;
     padding-top: 4%;
     padding-bottom: 4%;
     background: #1199bf;
+	padding-top: 10%;
+	padding-bottom: 8%;
+    padding: 7% 4% 8% 4%;
+	hr {
+	color: #f2f2f2;
+		display: none;
+	}
 
     article {
         background-color: #fff;
@@ -616,7 +821,19 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) {
     textarea {
         border: none;
         background-color: #f2f2f2;
+			  width: 100%;
     }
+	
+	  input {
+//		    padding: 2% 42% 2% 2%;
+			margin-bottom: 4%;
+		    padding: 4%;
+		}
+//	
+	  textarea {
+    padding-left: 1.2%;
+    padding-top: 1%;
+		}
 }
 
 
@@ -624,12 +841,19 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) {
 #comment {
   height: 6.4rem;
   margin-bottom: 3%;
+	margin-top: 2%;
 }
 
 .contactFormGreeting {
-  font-family: 'Roboto Slab', serif;
+//  font-family: 'Roboto Slab', serif;
   font-weight: 400;
   margin-top: 6%;
+	font-size: 2.2rem;
+ 	font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+	text-align: center;
 }
 
 #contactFormSubmit {
@@ -744,6 +968,39 @@ font-weight: 500;
 figure {
     width: 100%;
     margin: 0 auto;
+//	border: 1px solid #ccc;
+}
+
+.figureBorder {
+    border: 2px solid #f2f2f2;
+}
+
+.formSuccess {
+    h2 {
+        font-size: 3rem;
+    }
+    
+    h3 {
+//        text-align: center;
+        font-size: 2.5rem;
+    }
+}
+
+.backtoHomepage {
+    button {
+        margin: 0 auto;
+        display: block;
+        background: $backToHomepageColor;
+        color: #FFF;
+        font-size: 1.75rem;
+        font-weight: 700;
+//        padding: 2% 3%;
+            padding: 4% 7%;
+        
+        &:hover {
+            background: $backToHomepageColorHOVER;
+        }
+    }
 }
 
 .arrResearchImg {
@@ -826,6 +1083,7 @@ figure {
 // text-align: center;
 // margin: 0 auto;
 // margin-top: -6%;
+	margin-bottom: 0;
 	
 	h2 {
 		font-size: 2.3125em;
@@ -950,6 +1208,22 @@ background:
     }
 }
 
+ .moreWorkTitle {
+     h3 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 44%;
+    left: 30%;
+//         font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    text-align: left;
+    color: #FFF;
+         font-weight: 700;
+        }
+ }
+
 .projectDesc {
     display: none;
     width: 50%;
@@ -977,6 +1251,7 @@ section img {
 
 .projectBackground {
   background-color: #333;
+    border: 9px solid #333;
   
   //Mobile Only:
 //  padding-bottom: 8%;
@@ -1012,7 +1287,7 @@ cosDeliveryHomepage,
 	padding: 0 4%;
 }
 
-
+.aboutRoleBlock,
 .projectProcess,
 .cosDeliveryHomepage,
 .cosDeliveryHeroImg,
@@ -1140,7 +1415,7 @@ whiteContrast {
 //    font-family: 'Roboto Slab', serif;
     font-weight: 400;
 //    text-align: center;
-	background: #ddd;
+//	background: #ddd;
 	
 }
 
@@ -1156,7 +1431,9 @@ whiteContrast {
 //  font-weight: 300;
   font-family: "Roboto Slab";
     font-size: 1.45rem;
-	font-weight: 500;
+	font-weight: 500;		
+	font-family: 'Montserrat', sans-serif;
+
 }
 
 .servicesDeliverables {
@@ -1164,6 +1441,7 @@ whiteContrast {
 //	padding: 2% 6% 7% 6%;
 	padding: 0% 0 7% 4%;
 //	background: #f6f6f6;
+    display: none;
 	
 	
 	table {
@@ -1171,6 +1449,8 @@ whiteContrast {
 //		background: #f6f6f6;
 //    border-top: 2rem solid #f6f6f6;
 //    border-bottom: 2rem solid #f6f6f6;
+        border: 2px solid #ddd;
+        
 
 		
 		td, th {
@@ -1178,6 +1458,18 @@ whiteContrast {
     text-align: left;
     padding-right: 4%;
 			    padding-bottom: .4%;
+            font-family: 'Montserrat', sans-serif;
+    color: #777;
+            padding-top: 6.75%;
+    padding-left: 4%;
+		}
+		
+		td {
+			padding-left: 2%;
+            
+            &:last-child {
+                padding-bottom: 10%;
+            }
 		}
 	}
 }
@@ -1614,6 +1906,12 @@ background: gray url('../img/assets/homeBg.jpg') no-repeat top center;
 	background-size: cover;
 }
 
+.indexBg {
+    background: url("../img/assets/backgrounds/webBg.jpg") no-repeat center center;
+    background-size: cover;
+    background-color: #2A3A4B;
+}
+
 //.cosBg {
 //background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 90%, #FFF 100%) repeat scroll 0% 0%, transparent url("../img/assets/backgrounds/spm-coaching.jpg") no-repeat center top;
 //  background-size: cover;
@@ -1622,17 +1920,26 @@ background: gray url('../img/assets/homeBg.jpg') no-repeat top center;
 //url("../img/assets/arrVidBg.jpg")
 
 .cosBg {
-background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transparent url("../img/assets/backgrounds/science-bg.jpg") no-repeat center top;
-  background-size: cover;
+//background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transparent url("../img/assets/backgrounds/science-bg.jpg") no-repeat center top;
+//  background-size: cover;
+//    
+//    
+background: url("../img/assets/backgrounds/cosBgToned.jpg") no-repeat center top;
+    background-size: contain;
+    background-size: cover;
+//    height: 400px;
 }
 
 .smaBg {
-background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transparent url("../img/assets/backgrounds/sma-bg.jpg") no-repeat center top;
-  background-size: cover;
+//background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transparent url("../img/assets/backgrounds/sma-bg.jpg") no-repeat center top;
+//  background-size: cover;
+    
+    background: url("../img/assets/backgrounds/smaBgToned.jpg") no-repeat center top;
+    background-size: cover;
 }
 
-.arrVidBg {
-background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transparent url("../img/assets/backgrounds/arrVidBg.jpg") no-repeat center top;
+.arrPromosBg {
+background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transparent url("../img/assets/backgrounds/arrRanchPromosBgToned.jpg") no-repeat center top;
   background-size: cover;
 }
 
@@ -1643,20 +1950,42 @@ background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255,
 }
 
 .sportMgmtBg {
-background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transparent url("../img/assets/backgrounds/spm-coaching.jpg") no-repeat center top;
-  background-size: cover;
-    opacity: .9;
+//background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transparent url("../img/assets/backgrounds/spm-coaching.jpg") no-repeat center top;
+//  background-size: cover;
+//    opacity: .9;
+
 //    padding-bottom: 70%;
 
+    background: url("../img/assets/backgrounds/sportMgmtBgToned.jpg") no-repeat center top;
+    background-size: cover;
 
 }
 
 .arrBg {
-background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transparent url("../img/work/arr/arr-dexter-cattle.jpg") no-repeat 0 32%;
+background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transparent url("../img/assets/backgrounds/arrRanchBgToned.jpg") no-repeat 0 32%;
   background-size: cover;
   opacity: .9;
 //    padding-bottom: 62%;
 
+}
+
+.devicesBg {
+background: linear-gradient( rgba(0, 0, 0, 0.3)), url("../img/assets/backgrounds/devicesBg.jpg") no-repeat center center;
+  background-size: cover;
+  opacity: .9;
+//    padding-bottom: 62%;
+
+}
+
+.takeChargeImg {
+background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.3 )
+    ), url("../img/assets/backgrounds/takeChargeHeader.png")
+    no-repeat center center;
+	background-size: cover;
 }
 
 
@@ -1689,6 +2018,7 @@ background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), transpare
     color: #48525c;
 		font-weight: 700;
 		margin-bottom: 0;
+		color: #333;
 	}
 	
 	p {
@@ -2045,7 +2375,9 @@ footer ul li a {
 
 @media only screen and (min-width: 40.063em) {
   
-    
+    .otherWork .otherWorkLink {
+			width :47%;
+		}
     
     .selectedWorkTitle {
 //  height: 222px;
@@ -2060,13 +2392,29 @@ footer ul li a {
 }
 	
 	.about .sectionTitle {
+		margin-top: 4%;
 		text-align: center;
 	}
+	
+//	.about {
+//		margin-bottom: 5%;
+//	}
 	
 	.aboutContent {
 		margin: 0 auto;
 		display: block;
+
+		p {
+			width: 60%;
+			width: 81%;
+			margin: 0 auto;
+			padding-top: 2%;
+		}
 	}
+	
+	.profilePic {
+    margin-top: 8%;
+}
 	
 	
 	.contact .sectionTitle {
@@ -2079,6 +2427,10 @@ footer ul li a {
   
 	.contact .sectionTitle {
 		text-align: center;
+	}
+	
+	.indexForm {
+		padding-bottom: 4%;
 	}
 	
 	
@@ -2103,7 +2455,12 @@ footer ul li a {
   .workTitleBlock {
 //    margin-top: 270px;
   margin-top: 136px;
+		margin-top: 174px;
 }
+	
+	.arrDirImg {
+		max-width: 70%;
+	}
   
 .medium-block-grid-3 > li:nth-of-type(1n) {
     clear: none;
@@ -2317,6 +2674,9 @@ footer ul li a {
 //    font-weight: 300;
     margin-top: 5.9%;
 		font-size: 1.5;
+      
+      font-size: 1.7rem;
+    line-height: 1.5;
 }
 	
 .servicesDeliverables {
@@ -2331,6 +2691,8 @@ footer ul li a {
 //    width: 82%;
 		width: 100%;
     margin: 0 auto;
+        
+        margin-bottom: 7%;
 }
   
   .originImg {
@@ -2552,6 +2914,63 @@ and (orientation : landscape) {
 }
 
 @media only screen and (min-width: 60em) {
+    
+.backtoHomepage {
+    button {
+        margin: 0 auto;
+        display: block;
+        background: $backToHomepageColor;
+        color: #FFF;
+        font-size: 1.75rem;
+        font-weight: 700;
+        padding: 2% 3%;
+        
+        &:hover {
+            background: $backToHomepageColorHOVER;
+        }
+    }
+}    
+    
+.error404 {
+    padding: 5%;
+    height: 90vh;
+
+	h2 {
+		font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+		line-height: 1.35;
+    margin-top: 5%;
+		text-align: center;
+		font-size: 5rem;
+	}
+	
+	h3 {
+		font-family: 'Montserrat', sans-serif;
+    font-size: 2.2em;
+    line-height: 1.75;
+    margin-bottom: 1.7em;
+    font-weight: 300;
+		    color: #1199bf;
+		
+		font-size: 2em;
+    line-height: 1.2;
+        text-align: center;
+        
+                        margin-bottom: 0;
+
+
+ 
+	}
+    
+    h4 {
+        font-size: 1.5rem;
+        font-family: 'Montserrat', sans-serif;
+        color: #666;
+        text-align: center;
+    }
+	
+}
+
 	
 .snglHome {
 	  margin: 0;
@@ -2569,7 +2988,7 @@ and (orientation : landscape) {
 .homeIntroBlock,
 .workServices,
 //.selectedWork,
-.about,
+//.about,
 .contact {
 	  margin: 0 auto;
 		padding: 0;
@@ -2585,25 +3004,102 @@ and (orientation : landscape) {
 	}
 }
 	
+//.aboutRoleBlock {
+//	background: #FFF;
+//	padding: 2%;
+//	
+//	h3 {
+//		margin-bottom: 3%;
+//		
+//		font-size: 2.75rem;
+//    margin-top: 3%;
+//		
+//	}
+//	
+//	h4 {
+//		font-size: 2.1rem;
+//    margin-top: 0;
+//	}
+//	
+//}	
+//	
+	
+#aboutRole {
+//	background: #f2f2f2;
+}
+	
 .aboutRoleBlock {
-	background: #FFF;
+//	background: #FFF;
 	padding: 2%;
+		padding: 8.75%;
+	height: 82vh;
+	height: 67vh;
+//	
+//	h3 {
+//		text-align: center;
+//		font-size: 3rem;
+//		margin-bottom: 3%;
+//		
+//		font-size: 2.75rem;
+//    margin-top: 7%;
+//		
+//	}
+//	
+//	h4 {
+//		text-align: center;
+//		font-size: 2.75rem;
+//		
+//		font-size: 2.1rem;
+//    margin-top: 2%;
+//    font-weight: 500;
+//	}
+//	
+	h2 {
+		font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+//    color: #fff;
+//    text-shadow: 1px 1px 1px #333;
+    line-height: 1.45;
+		line-height: 1.35;
+    margin-top: 5%;
+//		text-align: center;
+		font-size: 3rem;
+        font-size: 6rem;
+        font-size: 5.45rem;
+        margin-top: 0;
+        margin-left: -7px;
+//        font-size: 2.5em;
+    line-height: 1.35;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        color: #fff;
+	}
 	
 	h3 {
-		margin-bottom: 3%;
-		
-		font-size: 2.75rem;
-    margin-top: 3%;
-		
+		font-family: 'Montserrat', sans-serif;
+//    color: #fff;
+//    text-shadow: 1px 1px 1px #333;
+    font-size: 2.2em;
+    line-height: 1.75;
+    margin-bottom: 1.7em;
+    font-weight: 300;
+//		text-align: center;
+//		color: #1199bf;
+        margin-top: 1%;
+        color: #fff;
 	}
 	
-	h4 {
-		font-size: 2.1rem;
-    margin-top: 0;
-	}
+}
 	
-}	
-	
+    
+.arrLogo {
+    width: 60%;
+    border: none;
+}
+    
+//figure {
+//    border: none;
+//}
 
 .projectProcess {
 	
@@ -2624,6 +3120,7 @@ and (orientation : landscape) {
 	
 	.about {
 	  padding: 3% 0 4% 0;
+		padding: 3% 0 10% 0;
 	}
 	
 	.contact {
@@ -2653,6 +3150,9 @@ and (orientation : landscape) {
 .projectImg {
     height: 400px;
     transition: all 1s ease;
+    
+    max-width: 1360px;
+    margin: 0 auto;
 
     &:hover {
 //        background-position: 12% 30%;
@@ -2665,7 +3165,6 @@ and (orientation : landscape) {
 //			margin: 0 2%;
         padding: 3% 0 4% 0;
 			
-			
 //			p {
 //				column-count: 2;
 //    -moz-column-count: 2;
@@ -2676,6 +3175,32 @@ and (orientation : landscape) {
 //			}
     }	
 
+// sets formating for image on left caption on right / vice versa like used in HubSpot pages
+.twoColumnContent {
+    padding-bottom: 9%;
+    
+    figure {
+//        border: 1px solid #f2f2f2;
+        border: 11px solid #f2f2f2;
+        border-bottom: none;
+    }
+    
+    .bodyCopy {
+        padding-top: 0;
+        
+        h3 {
+            margin-top: 0;
+        }
+    }
+}   
+    
+// copyLeft removes margins for left-right copy on left
+.copyLeft {
+    margin-left: 0 !important;
+//    padding-left: 0;
+    width: 80% !important;
+}
+
 .cosProjectImg {
     background:
     linear-gradient(
@@ -2685,6 +3210,7 @@ and (orientation : landscape) {
     ),
     url("../img/work/cos-homepage-mobile-1370x719-full-size-for-web.jpg")
     no-repeat center center;
+    background-size: cover;
 }
 
 //.spmProjectImg {
@@ -2709,6 +3235,29 @@ background:
     no-repeat center center;
 	background-size: cover;
 }
+    
+.devicesBg {
+background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.84)
+    ), url("../img/assets/backgrounds/devicesBg.jpg")
+    no-repeat right center;
+	background-size: cover;
+}
+    
+.takeChargeImg {
+background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.3)
+    ), url("../img/assets/backgrounds/takeChargeHeader.png")
+    no-repeat center center;
+	background-size: cover;
+}
+
 	
     .aboutImg {
         width: 82%;
@@ -2721,10 +3270,11 @@ background:
 .profilePic {
   margin: 0 auto;
   height: 205px;
+  height: 185px;
   background-color: #333;
   border-radius: 50%;
   display: block;
-  margin-top: -9%;
+  margin-top: 3%;
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -2771,7 +3321,7 @@ background:
   }
   
   .workSubTitle {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   
   .medium-block-grid-3 > li:nth-of-type(1n) {
@@ -3015,11 +3565,15 @@ and (-webkit-min-device-pixel-ratio: 1)  {
     height: 305px;
     }
     
-profilePic {
+.profilePic {
     height: 160px;
-    margin-top: -17%;
+    margin-top: 3%;
     }
     
+.about .sectionTitle {
+    margin-top: -1.5%;
+}
+	
 .indexAbout article {
     background-color: #f7f7f7;
     padding-bottom: 3%;
@@ -3039,6 +3593,12 @@ profilePic {
 
 .twoColumnTitle {
   margin-top: -1%;
+}
+	
+.aboutContent p {
+    width: 60%;
+    width: 43%;
+    padding-top: 0;
 }
 	
 	
@@ -3098,7 +3658,7 @@ profilePic {
     
     .profilePic {
     height: 170px;
-    margin-top: -13%;
+    margin-top: 3%;
     }
     
     .contactFormGreeting {
@@ -3187,6 +3747,7 @@ profilePic {
     margin-top: 15%;
     width: 110%;
     margin-left: 8%;
+		    border: 14px solid #333;
   }
   
   .centeredCaption p {

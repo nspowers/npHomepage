@@ -1,3 +1,5 @@
+// Sets color of to index "np" link at top left of page corner
+$toIndexLink: #2A3A4B;
 
 /*WORK CONTAINER*/
 .workContainer {
@@ -48,7 +50,22 @@
 		    font-size: 2.25rem;
 			font-weight: 300;
     color: #aaa;
+			font-size: 2rem;
+			font-family: 'Montserrat', sans-serif;
+					-webkit-transition: all .7s ease; /* Safari and Chrome */
+    			-moz-transition: all .7s ease; /* Firefox */
+    			-ms-transition: all .7s ease; /* IE 9 */
+    			-o-transition: all .7s ease; /* Opera */
+    			transition: all .7s ease;
 
+			&:hover {
+				color: $toIndexLink;
+					-webkit-transition: all .7s ease; /* Safari and Chrome */
+    			-moz-transition: all .7s ease; /* Firefox */
+    			-ms-transition: all .7s ease; /* IE 9 */
+    			-o-transition: all .7s ease; /* Opera */
+    			transition: all .7s ease;
+			}
 		}
 	}
 }

@@ -22,3 +22,9 @@ footer {
 		color: #CCC;
 	margin-bottom: 4%;
 }
+
+@media only screen and (min-width: 45em) {
+	footer {
+		margin-bottom: 0;
+	}
+}
