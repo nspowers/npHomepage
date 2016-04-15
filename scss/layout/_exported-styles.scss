@@ -994,6 +994,50 @@ font-weight: 500;
   width: 88%;
 }
 
+
+// Figure Callout (box on page) styles
+		$figureContainerBgColor: rebeccapurple;
+		$figureCopyDescBgColor: orange;
+		
+		.figureCallout {
+//			padding: 4% 8% 1%;
+			background: #f4f4f4;
+    padding: 6% 7%;
+}
+
+			
+			figure {
+				border: none !important;
+			}
+			
+			.centeredCaption p {
+    		background: #FFF;
+    		/* border-top: 15px solid #f4f4f4; */
+    		margin-top: 2%;
+				color: gray;
+			}
+			
+		.figureContainer {
+				background: $figureContainerBgColor;
+				background: rebeccapurple;
+			  padding: 0;
+
+			}
+			
+		.figureCopyDesc {
+				background: $figureCopyDescBgColor;
+				padding: 2% 0;
+    		box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.2);
+			}
+		
+			.DAMLibraryBg {
+
+				background: url("../img/work/dam-library.jpg") no-repeat left top;
+    background-size: cover;
+    height: 391px;
+			}
+		
+
 figure {
     width: 100%;
     margin: 0 auto;
@@ -1279,8 +1323,8 @@ section img {
 }
 
 .projectBackground {
-  background-color: #333;
-    border: 9px solid #333;
+  background: #103754;
+//    border: 9px solid #333;
   
   //Mobile Only:
 //  padding-bottom: 8%;
@@ -2722,7 +2766,7 @@ footer ul li a {
 }
 	
 	.projectBackground {
-    background-color: #333;
+//    background-color: #333;
     margin-bottom: 0;
     padding-bottom: 0;
 //    width: 81%;

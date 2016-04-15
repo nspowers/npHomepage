@@ -118,7 +118,29 @@ filter: grayscale(100%);
 	
 		.project-CSM {
 		}
-		
+
+// Figure Callout (box on page) styles
+//		$figureContainerBgColor: rebeccapurple;
+//		$figureCopyDescBgColor: orange;
+//		
+//		.figureCallout {
+//			padding: 4% 8% 1%;
+//		}
+//			
+//		.figureContainer {
+//				background: $figureContainerBgColor;
+//				background: rebeccapurple;
+//			}
+//			
+//		.figureCopyDesc {
+//				background: $figureCopyDescBgColor;
+//				padding: 2% 0;
+//    		box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.2);
+//			}
+//		
+//			.DAMLibraryBg {
+//			}
+//		
 		figure {
 			position: relative;
 			border: none;
@@ -433,9 +455,9 @@ filter: grayscale(100%);
     overflow: hidden;
     background: #fff;
 //    margin: 1% 4% 0 4%;
-		margin: 2% 4% 0 4%;
+//		margin: 2% 4% 0 4%;
 		///
-		margin: 3% 4% 0 4%;
+//		margin: 3% 4% 0 4%;
 	}
 	 
 	.homeContentContainer {
@@ -499,11 +521,17 @@ filter: grayscale(100%);
 	}
 		
 	.projectBackground {
-    width: 82%;
+//    width: 82%;
+		padding: 0 5%;
 	}
+
+	 .originImg {
+	 		max-width: 85%;
+	 }
 	 
 	.originImg img {
-		max-width: 100%;
+//		max-width: 100%;
+		margin-top: 8%;
 	}
 	 
 	.bodyCopy {
@@ -582,7 +610,7 @@ filter: grayscale(100%);
 
 @media screen and (min-width: 70em) {
 	.originImg {
-		max-width: 100%;
+//		max-width: 100%;
 	}
 }
 
