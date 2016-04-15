@@ -996,8 +996,8 @@ font-weight: 500;
 
 
 // Figure Callout (box on page) styles
-		$figureContainerBgColor: rebeccapurple;
-		$figureCopyDescBgColor: orange;
+		$figureContainerBgColor: transparent;
+		$figureCopyDescBgColor: #FFF;
 		
 		.figureCallout {
 //			padding: 4% 8% 1%;
@@ -1006,17 +1006,16 @@ font-weight: 500;
 }
 
 			
-			figure {
-				border: none !important;
-			}
-			
-			.centeredCaption p {
-    		background: #FFF;
-    		/* border-top: 15px solid #f4f4f4; */
-    		margin-top: 2%;
-				color: gray;
-			}
-			
+		.calloutCaption p {
+//			background: #FFF;
+			margin-top: 2%;
+//			padding: 2%;
+			text-align: center;
+//    font-family: 'Montserrat', sans-serif;
+    	font-size: 1.1rem;
+			color: gray;
+		}
+
 		.figureContainer {
 				background: $figureContainerBgColor;
 				background: rebeccapurple;
@@ -1027,7 +1026,11 @@ font-weight: 500;
 		.figureCopyDesc {
 				background: $figureCopyDescBgColor;
 				padding: 2% 0;
-    		box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.2);
+//    		box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.2);
+			
+				.bodyCopy {
+					padding: 8%;
+				}
 			}
 		
 			.DAMLibraryBg {
@@ -1089,7 +1092,7 @@ figure {
   line-height: 1.5;
 //  color: #909090;
   color: $themeTextColor;
-    font-family: 'Montserrat', sans-serif;
+//    font-family: 'Montserrat', sans-serif;
     font-size: .95rem;
 }
 
@@ -1107,7 +1110,7 @@ figure {
 //    padding: 3% 0 3% 0;
 		padding: 3% 2% 3% 2%;
   text-align: center;
-          font-family: 'Montserrat', sans-serif;
+//          font-family: 'Montserrat', sans-serif;
     font-size: .95rem;
 		background: #f2f2f2;
   }
@@ -1323,7 +1326,7 @@ section img {
 }
 
 .projectBackground {
-  background: #103754;
+  background: transparent;
 //    border: 9px solid #333;
   
   //Mobile Only:
@@ -1335,6 +1338,10 @@ section img {
   p {
   color: #979797;
   }
+}
+
+.originCallout {
+	background: #103754;
 }
 
 .sptmOrigins {
@@ -2885,6 +2892,7 @@ footer ul li a {
 		padding: 2%;
 //    padding: 1.25% 0 5.1% 0;
 //  text-align: center;
+		font-size: 1.1rem;
   }
   
   .twoColumnCentered p {
@@ -3830,7 +3838,8 @@ and (-webkit-min-device-pixel-ratio: 1)  {
   }
   
   .originImg {
-    margin-top: 15%;
+//    margin-top: 15%;
+    margin-top: 6.6%;
     width: 110%;
     margin-left: 8%;
 		    border: 14px solid #333;
