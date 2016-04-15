@@ -1,10 +1,19 @@
-$cosHovColor: #990000;
-$cosHovColor: #B80013;
-$spmHovColor: #990000;
-$arrRanchHovColor: #a52a2a;
-$arrPromoHovColor: #427E93;
-$smaHovColor: #990000;
-$devicesHovColor: #efcc3a;
+//$cosHovColor: #990000; red
+$cosHovColor: #103754;
+
+$cosHovColor: #103754;
+$spmHovColor: #103754;
+$arrRanchHovColor: #103754;
+$arrPromoHovColor: #103754;
+$smaHovColor: #103754;
+$devicesHovColor: #103754;
+
+//$cosHovColor: #B80013;
+//$spmHovColor: #990000;
+//$arrRanchHovColor: #a52a2a;
+//$arrPromoHovColor: #427E93;
+//$smaHovColor: #990000;
+//$devicesHovColor: #efcc3a;
 
 $other: #b40202;
 
@@ -85,6 +94,22 @@ $globalPageBackground: #F4F4F4;
     -ms-transition: all .7s ease; /* IE 9 */
     -o-transition: all .7s ease; /* Opera */
     transition: all .7s ease;
+	
+//	.viewWorkBtn {
+//		position: absolute;
+//    top: 80%;
+//    left: 4%;
+//    color: #fff;
+//    border: 2px solid #fff;
+//    padding: 1% 1.5%;
+//    font-weight: 800;
+//		border-radius: 1%;
+//		
+//		&:hover {
+//			background-color: #103754;
+//			color: transparent;
+//		}
+//	}
 }
 
 //.projectImg:hover > .cosHovColor {
@@ -452,7 +477,8 @@ background:
     background: #1199bf;
     background: #2A3A4B;
     background: #45607c;
-	background: #eee;
+    background: #103754;
+//	background: #eee;
 }    
     
     
@@ -481,6 +507,10 @@ background:
 //  .workTitleBlock {
 //    margin-top: 325px;
 //  }
+	
+	.workTitleBlock {
+	padding-left: 11.2%;
+	}
   
     .project {
 //    margin-top: 4%;
@@ -556,6 +586,8 @@ background:
   display: block;
   margin-top: 0;
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+	margin-top: 30px;
+	margin-bottom: -50px;
 }
 
 .projectTitle {

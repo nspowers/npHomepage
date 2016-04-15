@@ -41,7 +41,7 @@ $navContrast: #333;
 //  color: #FFF;
 	background-color: transparent;
   border: none;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
   font-weight: 300;
 //	position: fixed;
   right: 0;
@@ -50,6 +50,8 @@ $navContrast: #333;
 	line-height: 1.55;
 	position: absolute;
 //	position: fixed;
+	
+	font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -121,10 +123,14 @@ $navContrast: #333;
     width: 73%;
     margin: 0 auto;
 			
+			&:first-of-type {
+				display: none;
+			}
+			
 			a {
 //				color: #FFF;
 				padding: 4%;
-				color: #878787;
+				color: #AAA;
 				text-transform: uppercase;
     		font-family: 'Montserrat', sans-serif;
 				letter-spacing: 1.4px;
@@ -178,7 +184,7 @@ $navContrast: #333;
 		float: right;
 //		margin-top: .9%;
 //		margin-top: 1.5%;
-		top: 0.89%;
+		top: 3%;
         z-index: 9;
 		
 		// with add of name to logo 1 Feb 2016
@@ -194,28 +200,39 @@ $navContrast: #333;
 			display: inline-block;
 //    	padding: 4.7%;
 				    padding: 1% 2%;
+				border-bottom: none;
+				padding: 0% 0%;
+    border: none;
+    display: inline;
+				width: auto;
 		
 			a {
 //    		padding: 4%;
-    		font-size: 1.3rem;
+    		font-size: 1.25rem;
 //				color: #878787;
 //					-webkit-transition: all 1s ease; /* Safari and Chrome */
 //    -moz-transition: all 1s ease; /* Firefox */
 //    -ms-transition: all 1s ease; /* IE 9 */
 //    -o-transition: all 1s ease; /* Opera */
 //    transition: all 1s ease;
-                color: #fff;
-                border-bottom: 4px solid transparent;
+//                color: #777;
+//                border-bottom: 4px solid transparent;
+//padding: 2% 2% 0.75%;
+				    padding: 2% 0% 0.75%;
+    margin-left: 5%;
+				color: #FFF;
 
 				
 	
 				&:hover {
 //					background-color: sienna;
-					color: #990000;
-					color: #b30000;
-					color: #2A3A4B;
-                    color: #FFF;
-                    border-bottom: 4px solid #fff;
+//					color: #990000;
+//					color: #b30000;
+//					color: #2A3A4B;
+//                    color: #103754;
+//                    color: #FFF;
+//                    border-bottom: 4px solid #103754;
+                    border-bottom: 4px solid #FFF;
 //						-webkit-transition: all 1s ease; /* Safari and Chrome */
 //    -moz-transition: all 1s ease; /* Firefox */
 //    -ms-transition: all 1s ease; /* IE 9 */
@@ -226,4 +243,24 @@ $navContrast: #333;
 		}
 		}
 	}
+	
+	 .contrastNav {
+			color: #777 !important;
+//      border-bottom: 4px solid transparent;
+		 
+		 &:hover {
+//					background-color: sienna;
+//					color: #990000;
+//					color: #b30000;
+//					color: #2A3A4B;
+                    color: #103754 !important;
+                    border-bottom: 4px solid #103754 !important;
+//						-webkit-transition: all 1s ease; /* Safari and Chrome */
+//    -moz-transition: all 1s ease; /* Firefox */
+//    -ms-transition: all 1s ease; /* IE 9 */
+//    -o-transition: all 1s ease; /* Opera */
+//    transition: all 1s ease;
+				}
+		 
+	 }
 }

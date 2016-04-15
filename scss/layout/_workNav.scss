@@ -49,8 +49,9 @@ $toIndexLink: #2A3A4B;
 			display: block;
 		    font-size: 2.25rem;
 			font-weight: 300;
-    color: #aaa;
-			font-size: 2rem;
+    color: #777;
+			font-size: 1.4rem;
+			line-height: 4.2;
 			font-family: 'Montserrat', sans-serif;
 					-webkit-transition: all .7s ease; /* Safari and Chrome */
     			-moz-transition: all .7s ease; /* Firefox */
@@ -188,6 +189,11 @@ font-family: "Abolition Regular", Helvetica, Arial, sans-serif;
 			}
 		}
 
+.home span p {
+	font-size: 1.6rem;
+    line-height: 1.4;
+}
+		
 .workContainer {
 //height: 100vh;
     overflow: hidden;

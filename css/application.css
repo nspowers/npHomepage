@@ -1420,13 +1420,14 @@ button {
   padding: 5%;
   background-color: transparent;
   border: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 300;
   right: 0;
   z-index: 9;
   color: #878787;
   line-height: 1.55;
-  position: absolute; }
+  position: absolute;
+  font-family: 'Montserrat', sans-serif; }
 
 .navZShow {
   z-index: 999999 !important;
@@ -1462,12 +1463,18 @@ button {
       list-style: none;
       margin: 0;
       padding: 5%;
-      font-size: 1.5rem; }
+      font-size: 1.5rem;
+      border-bottom: 2px solid #e6e6e6;
+      width: 73%;
+      margin: 0 auto; }
+      #primaryNav ul li:first-of-type {
+        display: none; }
       #primaryNav ul li a {
         padding: 4%;
-        color: #878787;
+        color: #AAA;
         text-transform: uppercase;
-        font-family: 'Montserrat', sans-serif; }
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 1.4px; }
 
 @media (min-width: 770px) {
   .logo {
@@ -1492,7 +1499,7 @@ button {
     min-width: 100%;
     display: inline-block;
     float: right;
-    top: 0.89%;
+    top: 3%;
     z-index: 9; }
     #primaryNav ul {
       min-width: 100%;
@@ -1500,17 +1507,24 @@ button {
       text-align: right; }
       #primaryNav ul li {
         display: inline-block;
-        padding: 1% 2%; }
+        padding: 1% 2%;
+        border-bottom: none;
+        padding: 0% 0%;
+        border: none;
+        display: inline;
+        width: auto; }
         #primaryNav ul li a {
-          font-size: 1.3rem;
-          color: #fff;
-          border-bottom: 4px solid transparent; }
+          font-size: 1.25rem;
+          padding: 2% 0% 0.75%;
+          margin-left: 5%;
+          color: #FFF; }
           #primaryNav ul li a:hover {
-            color: #990000;
-            color: #b30000;
-            color: #2A3A4B;
-            color: #FFF;
-            border-bottom: 4px solid #fff; } }
+            border-bottom: 4px solid #FFF; }
+  .contrastNav {
+    color: #777 !important; }
+    .contrastNav:hover {
+      color: #103754 !important;
+      border-bottom: 4px solid #103754 !important; } }
 
 /*WORK CONTAINER*/
 .workContainer {
@@ -1537,8 +1551,9 @@ button {
     display: block;
     font-size: 2.25rem;
     font-weight: 300;
-    color: #aaa;
-    font-size: 2rem;
+    color: #777;
+    font-size: 1.4rem;
+    line-height: 4.2;
     font-family: 'Montserrat', sans-serif;
     -webkit-transition: all .7s ease;
     /* Safari and Chrome */
@@ -1626,6 +1641,9 @@ button {
     margin: 1.15% 0 0 3.9%; }
     .home p {
       display: none; }
+  .home span p {
+    font-size: 1.6rem;
+    line-height: 1.4; }
   .workContainer {
     overflow: hidden; }
   .workNavContainer img {
@@ -2687,6 +2705,9 @@ button {
 p {
   font-family: "Roboto", sans-serif; }
 
+.workPageWrap {
+  background: #FFF; }
+
 .sidebar .sidebar-nav li {
   border: none; }
   .sidebar .sidebar-nav li:hover {
@@ -2735,9 +2756,7 @@ p {
     font-weight: 300; }
 
 #aboutRole {
-  background: url("../img/assets/backgrounds/webBg.jpg") no-repeat center center;
-  background-size: cover;
-  background-color: #2A3A4B; }
+  background: #F7F7F7; }
 
 .aboutRoleBlock {
   padding: 2%; }
@@ -2749,7 +2768,9 @@ p {
     margin-top: 5%;
     text-align: left;
     font-size: 3rem;
-    color: #FFF; }
+    color: #FFF;
+    color: #777;
+    color: #B80013; }
   .aboutRoleBlock h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.2em;
@@ -2757,17 +2778,14 @@ p {
     margin-bottom: 1.7em;
     font-weight: 300;
     text-align: left;
+    color: #777;
     font-size: 2em;
-    line-height: 1.2;
-    color: #FFF; }
+    line-height: 1.2; }
 
 .moreWorkTitle h3 {
   font-size: 3rem;
   text-align: center;
   margin: 0 auto;
-  position: absolute;
-  top: 44%;
-  left: 11%;
   font-weight: 400;
   text-align: left;
   color: #FFF;
@@ -2852,7 +2870,8 @@ p {
 .selectedWorkGrid {
   margin: 0;
   padding: 0;
-  background: #f2f2f2; }
+  background: #f2f2f2;
+  background: #F4F4F4; }
   .selectedWorkGrid .columns {
     margin: 0;
     padding: 0; }
@@ -2873,10 +2892,12 @@ p {
     font-size: 4rem;
     font-size: 3.5rem;
     color: #0B151E;
+    color: #103754;
     font-size: 2.25rem;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    margin-left: 4%; }
   .gridImgContainer .gridImgLinkTitle {
     position: relative;
     text-transform: uppercase;
@@ -2951,6 +2972,17 @@ p {
   padding: 0px 40px;
   padding-left: 0; }
 
+.sectionTitleHightlight {
+  display: inline-block;
+  background: #103754;
+  margin: 0;
+  padding: 1.25% 1.2%;
+  color: #fff;
+  background: #B80013; }
+
+.sectionTitleNorm {
+  margin: 0; }
+
 .about {
   background: #fff;
   border-bottom: 1px solid #eee;
@@ -3015,12 +3047,14 @@ p {
 table tr.even, table tr.alt, table tr:nth-of-type(even) {
   background: transparent; }
 
-.indexWork,
-.indexForm {
+.indexWork {
   background-color: #f2f2f2; }
 
 .indexAbout {
   background-color: #F7F7F7; }
+
+.indexForm {
+  background: #103754; }
 
 .lastWork {
   margin-bottom: 5%; }
@@ -3116,13 +3150,13 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) {
 .indexForm {
   padding-top: 4%;
   padding-bottom: 4%;
-  background: #1199bf;
   padding-top: 10%;
   padding-bottom: 8%;
   padding: 7% 4% 8% 4%; }
   .indexForm hr {
     color: #f2f2f2;
-    display: none; }
+    display: none;
+    background: #103754; }
   .indexForm article {
     background-color: #fff;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
@@ -3146,13 +3180,17 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) {
   margin-top: 2%; }
 
 .contactFormGreeting {
-  font-family: 'Roboto Slab', serif;
   font-weight: 400;
   margin-top: 6%;
-  font-size: 2.2rem; }
+  font-size: 2.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: center; }
 
 #contactFormSubmit {
-  background-color: #1199bf;
+  background-color: #c00;
   margin: 0 auto;
   display: block;
   color: #FFF;
@@ -3164,7 +3202,7 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) {
   width: 100%;
   padding: 6%; }
   #contactFormSubmit:hover {
-    background-color: #0f86a8;
+    background-color: #990000;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2); }
 
 .contactThanksBlock {
@@ -3191,7 +3229,6 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) {
   margin-left: 0; }
 
 .sectionTitle {
-  text-transform: uppercase;
   font-size: 2.1rem;
   letter-spacing: 1px;
   font-size: 1.75rem;
@@ -3773,9 +3810,7 @@ a.workLink:hover .learnMoreArrow {
   background-size: cover; }
 
 .indexBg {
-  background: url("../img/assets/backgrounds/webBg.jpg") no-repeat center center;
-  background-size: cover;
-  background-color: #2A3A4B; }
+  background: #F7F7F7; }
 
 .cosBg {
   background: url("../img/assets/backgrounds/cosBgToned.jpg") no-repeat center top;
@@ -3787,8 +3822,7 @@ a.workLink:hover .learnMoreArrow {
   background-size: cover; }
 
 .arrPromosBg {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), transparent url("../img/assets/backgrounds/arrRanchPromosBgToned.jpg") no-repeat center top;
-  background-size: cover; }
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.84)), url("../img/worklist/arrVidBg.jpg") no-repeat center center; }
 
 .sportMgmtBg {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 90%, #FFF 100%) repeat scroll 0% 0%, transparent url("../img/work/spm-coaching.jpg") no-repeat center top;
@@ -3800,7 +3834,7 @@ a.workLink:hover .learnMoreArrow {
   background-size: cover; }
 
 .arrBg {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), transparent url("../img/assets/backgrounds/arrRanchBgToned.jpg") no-repeat 0 32%;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), transparent url("../img/assets/backgrounds/arrRanchBgToned.jpg") no-repeat 0 32%;
   background-size: cover;
   opacity: .9; }
 
@@ -3911,7 +3945,9 @@ a.workLink:hover .learnMoreArrow {
 footer {
   width: 100%;
   position: relative;
-  bottom: 0; }
+  bottom: 0;
+  background: #222;
+  padding-bottom: 35px; }
   footer p {
     font-size: .9rem;
     text-align: center;
@@ -4010,6 +4046,8 @@ footer ul li a {
     background: #1199bf; } }
 
 @media only screen and (min-width: 40.063em) {
+  .gridImgContainer h3 {
+    margin-left: 0; }
   .otherWork .otherWorkLink {
     width: 47%; }
   .selectedWorkTitle {
@@ -4132,7 +4170,8 @@ footer ul li a {
     padding-bottom: 0;
     width: 100%;
     margin: 0 auto;
-    margin-bottom: 7%; }
+    margin-bottom: 7%;
+    margin-bottom: 4%; }
   .originImg {
     margin: 0 auto;
     display: block;
@@ -4306,7 +4345,8 @@ footer ul li a {
       line-height: 1.35;
       margin-bottom: 0;
       padding-bottom: 0;
-      color: #fff; }
+      text-align: center;
+      padding-top: 4%; }
     .aboutRoleBlock h3 {
       font-family: 'Montserrat', sans-serif;
       font-size: 2.2em;
@@ -4314,7 +4354,7 @@ footer ul li a {
       margin-bottom: 1.7em;
       font-weight: 300;
       margin-top: 1%;
-      color: #fff; }
+      text-align: center; }
   .arrLogo {
     width: 60%;
     border: none; }
@@ -4424,9 +4464,7 @@ footer ul li a {
     height: 100%; }
   .backgroundCard {
     border-bottom: 2rem solid #fff;
-    border-top: 2rem solid #fff;
     border-bottom: 2rem solid transparent;
-    border-top: 2rem solid transparent;
     background: transparent;
     margin: 0 auto;
     width: 81%; }
@@ -4870,7 +4908,7 @@ footer ul li a {
     padding: 0 5% 0 0; }
   .workTitleBlock {
     margin-top: 136px;
-    margin-left: 8%; }
+    padding-left: 10%; }
     .workTitleBlock h2 {
       text-align: left; }
     .workTitleBlock h3 {
@@ -4882,7 +4920,8 @@ footer ul li a {
     margin: 0 auto;
     width: 87.5%; }
   .workLead {
-    font-size: 2rem; }
+    font-size: 2rem;
+    max-width: 78%; }
   .projectBackground {
     width: 82%; }
   .originImg img {
@@ -4933,7 +4972,7 @@ footer ul li a {
 @media (min-width: 1280px) {
   .workTitleBlock {
     margin-top: 136px;
-    margin-left: 8%; }
+    padding-left: 8%; }
     .workTitleBlock h2 {
       font-size: 3.15em;
       padding-left: 0; }
@@ -4990,22 +5029,22 @@ footer ul li a {
   transition: all .7s ease; }
 
 .cosHovColor:hover {
-  background: #990000; }
+  background: #103754; }
 
 .spmHovColor:hover {
-  background: #990000; }
+  background: #103754; }
 
 .arrHovColor:hover {
-  background: #a52a2a; }
+  background: #103754; }
 
 .arrPromoHovColor:hover {
-  background: #427E93; }
+  background: #103754; }
 
 .smaHovColor:hover {
-  background: #990000; }
+  background: #103754; }
 
 .devicesHovColor:hover {
-  background: #efcc3a; }
+  background: #103754; }
 
 .cosProjectImg {
   background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.84)), url("../img/assets/m/cosProjectTileMobile.jpg") no-repeat center center;
@@ -5117,7 +5156,7 @@ footer ul li a {
   .indexHome,
   .indexWork,
   .indexForm {
-    background-color: #f2f2f2; }
+    background: #F4F4F4; }
   .indexAbout {
     background-color: #F7F7F7;
     background-color: #f2f2f2;
@@ -5126,7 +5165,8 @@ footer ul li a {
     padding-top: 4%;
     background: #1199bf;
     background: #2A3A4B;
-    background: #45607c; } }
+    background: #45607c;
+    background: #103754; } }
 
 @media only screen and (min-width: 60em) {
   .indexWork article {
@@ -5137,6 +5177,8 @@ footer ul li a {
     .indexWork article:last-of-type {
       margin-bottom: 0;
       padding-bottom: 6%; }
+  .workTitleBlock {
+    padding-left: 11.2%; }
   .project {
     margin-top: 0;
     overflow: hidden; }
@@ -5160,7 +5202,9 @@ footer ul li a {
     border-radius: 50%;
     display: block;
     margin-top: 0;
-    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2); }
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    margin-bottom: -50px; }
   .projectDesc {
     display: block; }
     .projectDesc p {
@@ -5179,7 +5223,8 @@ footer ul li a {
 #skills {
   background: #f2f2f2;
   background: #000026;
-  background: #2A3A4B; }
+  background: #2A3A4B;
+  background: #103754; }
 
 .skillsTitle {
   margin: 0 auto; }
@@ -5189,7 +5234,8 @@ footer ul li a {
 .skillsList {
   padding-bottom: 6%; }
   .skillsList article {
-    padding: 0 15%; }
+    padding: 0 15%;
+    padding: 0 10%; }
     .skillsList article h4 {
       margin: 0;
       padding: 0;
@@ -5204,7 +5250,7 @@ footer ul li a {
         margin: 0;
         padding: 0;
         list-style: none;
-        font-size: 1.5rem;
+        font-size: 1.35rem;
         line-height: 1.75;
         color: #48525c;
         color: #fff; }
